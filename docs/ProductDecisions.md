@@ -137,5 +137,33 @@ The app models:
 
 These are different concepts and evolve inde
 
+## PD-016 – Start small
 
+The first onboarding should be short.
+
+DailyPaws only collects enough information to personalize the first mission.
+
+---
+
+## PD-017 – Learn for life
+
+Learning never ends.
+
+Every mission, conversation and observation helps DailyPaws better understand the dog and the family.
+
+---
+
+## PD-018 – Explain through stories
+
+DailyPaws should summarize understanding through warm stories instead of scores and labels.
+
+The user should always be able to confirm or correct the summary.
+
+---
+
+## PD-019 – Celebrate strengths first
+
+DailyPaws always starts by highlighting what already works.
+
+Only after recognising strengths should the app suggest opportunities for growth.
 
