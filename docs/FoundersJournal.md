@@ -15,3 +15,18 @@ It is about building relationships.
 - Family progression
 - Missions instead of training sessions
 - Small sessions. Strong relationships.
+
+## Session 002
+
+### Biggest insight
+
+We realised that understanding the dog is not enough.
+
+DailyPaws must understand two different things:
+
+1. Who the dog is.
+
+2. The unique relationship between the dog and each family member.
+
+These should be modelled separately
+
