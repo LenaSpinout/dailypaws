@@ -11,7 +11,9 @@ The goal isn't perfect obedience.
 The goal is everyday confidence, calmness and cooperation.
 
 
+## For AI collaborators
 
+Before working on DailyPaws, read `docs/AI_CONTEXT.md`.
 ---
 
 🚧 Currently in Product Discovery.
