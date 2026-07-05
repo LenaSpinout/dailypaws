@@ -7,3 +7,12 @@ Sprint 0
 - [ ] Relationship Assessment
 - [ ] Mission Engine
 - [ ] UX Principles
+
+## Epic – Learning Experience
+
+- Initial onboarding
+- Continuous conversations
+- Follow-up questions
+- Personality insights
+- Relationship insights
+- Meet Your Dog summary
