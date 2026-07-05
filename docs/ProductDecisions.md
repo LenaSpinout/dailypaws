@@ -108,3 +108,34 @@ DailyPaws values thoughtful choices over fast responses.
 DailyPaws is built around positive reinforcement, trust and cooperation.
 
 Learning should leave both the dog and the human wanting to do another mission.
+
+## PD-013 – Learn continuously
+
+DailyPaws learns continuously.
+
+The initial onboarding provides only enough information to personalize the first mission.
+
+Knowledge about the dog and the family grows over time through natural conversations.
+
+---
+
+## PD-014 – Understand before coaching
+
+DailyPaws should help users feel understood before trying to teach them anything.
+
+Trust comes before coaching.
+
+---
+
+## PD-015 – Separate personality from relationships
+
+The app models:
+
+1. Who the dog is.
+
+2. How each relationship works.
+
+These are different concepts and evolve inde
+
+
+
