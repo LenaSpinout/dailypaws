@@ -1,0 +1,93 @@
+# AI Context for DailyPaws
+
+Read this before doing any work on DailyPaws.
+
+DailyPaws is a family relationship app for life with dogs.
+
+It is not a generic dog training app.
+
+## Core idea
+
+DailyPaws helps families build stronger relationships with their dogs through small everyday missions.
+
+Tagline:
+
+Small sessions. Strong relationships.
+
+North Star:
+
+Create moments worth sharing.
+
+## Product philosophy
+
+DailyPaws should help users feel understood before trying to teach them anything.
+
+The app learns about the dog and the family gradually.
+
+It starts with a short onboarding, then keeps learning through follow-up questions after missions.
+
+## Key concepts
+
+- Missions, not training sessions
+- Moments, not statistics
+- Progress, not perfection
+- Family growth, not only dog training
+- Relationship before performance
+- No streaks
+- Calm is a superpower
+
+## Two separate models
+
+DailyPaws separates:
+
+1. Who the dog is
+2. The relationship between the dog and each family member
+
+Do not merge these concepts.
+
+## Tone of voice
+
+DailyPaws should sound warm, curious and humble.
+
+Use phrases like:
+
+- I think...
+- It seems...
+- I noticed...
+- I may be wrong...
+- Does this sound like your dog?
+
+Avoid:
+
+- Your dog is...
+- You should...
+- Mission failed
+- Assessment complete
+- Incorrect
+
+## Important product rule
+
+Before suggesting, designing or building anything, ask:
+
+Does this help create, discover or remember meaningful moments between dogs and people?
+
+If not, it probably does not belong in DailyPaws.
+
+## Required reading order
+
+Before working on the project, read:
+
+1. docs/AI_CONTEXT.md
+2. docs/ProductBible.md
+3. docs/ProductDecisions.md
+4. docs/Discovery.md
+5. docs/Roadmap.md
+6. latest file in docs/sessions/
+
+## Working rules
+
+Do not write production code unless the relevant product decision or discovery note exists.
+
+Do not turn DailyPaws into a generic obedience, trick or habit-tracking app.
+
+When uncertain, protect the product philosophy.
