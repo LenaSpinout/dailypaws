@@ -280,3 +280,10 @@ Ideas
 - Roles can change over time.
 - Relationships evolve independently.
 - Every relationship has a unique superpower.
+
+Open questions
+
+- Which roles should exist?
+- Can users create custom roles?
+- Can one person have several roles?
+- Can one dog belong to multiple families?
