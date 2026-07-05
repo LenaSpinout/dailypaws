@@ -1,0 +1,42 @@
+# Product Model
+
+> The Domain Model of DailyPaws
+
+This document describes the core concepts that exist in DailyPaws.
+
+It is technology independent.
+
+It explains what the product knows, not how it is implemented.
+
+---
+
+# Core Principles
+
+The Product Model describes concepts.
+
+Not screens.
+
+Not databases.
+
+Not APIs.
+
+Every concept should answer four questions:
+
+- Why does it exist?
+- What does DailyPaws know?
+- How does it evolve?
+- Which other concepts does it relate to?
+
+---
+
+# Core Concepts
+
+- Family
+- Dog
+- Relationship
+- Goal
+- Mission
+- Conversation
+- Insight
+- Moment
+- Journey
