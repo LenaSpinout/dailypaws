@@ -269,3 +269,14 @@ Not statistics.
 - When should the app say "I've learned something new about your dog"?
 
 - What data is inferred automatically versus asked explicitly?
+
+# Family
+
+Ideas
+
+- A family consists of people.
+- Every person has one or more roles.
+- Every person has one unique relationship with the dog.
+- Roles can change over time.
+- Relationships evolve independently.
+- Every relationship has a unique superpower.
