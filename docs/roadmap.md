@@ -1,12 +1,16 @@
 Sprint 0
 
-- [x] Vision
-- [x] Product Decisions
-- [x] Product Philosophy
-- [ ] Dog Assessment
-- [ ] Relationship Assessment
-- [ ] Mission Engine
-- [ ] UX Principles
+✅ Vision
+✅ Product Decisions
+✅ Discovery
+🟡 Product Model
+⬜ Family
+⬜ Dog
+⬜ Relationship
+⬜ Goals
+⬜ Mission Engine
+⬜ Conversation Engine
+⬜ Insight Engine
 
 ## Epic – Learning Experience
 
