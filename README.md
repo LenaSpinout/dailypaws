@@ -70,6 +70,7 @@ The most important documents are:
 Supporting documentation includes:
 
 - Discovery
+- Design Decisions
 - Roadmap
 - Questions
 - Changelog

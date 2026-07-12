@@ -35,6 +35,7 @@ It starts with a short onboarding, then keeps learning through follow-up questio
 - Relationship before performance
 - No streaks
 - Calm is a superpower
+- Conversational UI, not conversational AI
 
 ## Two separate models
 
@@ -64,6 +65,9 @@ Avoid:
 - Mission failed
 - Assessment complete
 - Incorrect
+- Hi, I'm DailyPaws.
+- I'd love to...
+- I'm excited to...
 
 ## Important product rule
 
@@ -81,9 +85,10 @@ Before working on the project, read:
 2. docs/ProductBible.md
 3. docs/ProductDecisions.md
 4. docs/ProductModel.md
-5. docs/Discovery.md
-6. docs/roadmap.md
-7. latest file in docs/sessions/
+5. docs/DesignDecisions.md
+6. docs/Discovery.md
+7. docs/roadmap.md
+8. latest file in docs/sessions/
 
 ## Working rules
 
@@ -107,8 +112,9 @@ If two documents conflict, the following order applies:
 2. ProductDecisions.md
 3. ProductModel.md
 4. MVP_PLAN.md
-5. AI_CONTEXT.md
-6. CLAUDE.md
+5. DesignDecisions.md
+6. AI_CONTEXT.md
+7. CLAUDE.md
 
 ## Session workflow
 
