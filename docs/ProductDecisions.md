@@ -257,3 +257,32 @@ If a Mission does not contribute to any of these, it should not exist.
 DailyPaws stores reusable Mission Templates.
 
 The user receives personalised Missions generated from these templates based on the current Goal, Dog, Relationship and Context.
+
+
+## PD-031 – Insights must be earned
+
+DailyPaws should only present an Insight when sufficient evidence exists.
+
+The frequency of Insights should be driven by confidence rather than time.
+
+---
+
+## PD-032 – Insights are suggestions, not facts
+
+DailyPaws never claims certainty about the dog.
+
+Insights should be presented as interpretations based on observations.
+
+The user should always be able to confirm, reject or refine an Insight.
+
+---
+
+## PD-033 – Insights are constructive
+
+Insights should never judge the dog or the family.
+
+Every Insight should either:
+
+- celebrate a strength,
+- describe a meaningful pattern, or
+- suggest an opportunity for growth.
