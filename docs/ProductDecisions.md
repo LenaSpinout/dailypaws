@@ -1,4 +1,4 @@
-no# Product Decisions
+# Product Decisions
 
 These are the fundamental principles that guide every product decision in DailyPaws.
 
