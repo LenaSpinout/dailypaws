@@ -174,7 +174,7 @@ The first implementation should prioritise:
 
 Avoid premature optimisation.
 
-# technical decision
+# Technical Decision
 
 ## Internationalisation
 

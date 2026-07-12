@@ -4,6 +4,11 @@ This document describes how work moves through DailyPaws, from idea to
 deployment. It exists so a small team — one human and two AI
 collaborators — can move quickly without losing traceability.
 
+**See also:** `docs/CLAUDE.md` for the AI Software Engineer's own
+operating checklist — how a task is approached day to day. This document
+defines the team-wide mechanics (branches, labels, review policy);
+`CLAUDE.md` defines how the engineer applies them.
+
 ---
 
 # Team
