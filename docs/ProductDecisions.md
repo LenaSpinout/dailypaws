@@ -189,3 +189,19 @@ DailyPaws stores observations rather than fixed personality labels.
 Personality is an interpretation generated from observations.
 
 This allows the app to continuously refine its understanding of the dog as new observations are made.
+
+## PD-023 – Relationships are unique, not comparable
+
+Every relationship between a person and a dog is unique.
+
+DailyPaws never ranks relationships or compares family members.
+
+Instead, it helps every relationship grow from its own strengths.
+
+---
+
+## PD-024 – Every relationship has a superpower
+
+Every relationship has at least one existing strength.
+
+DailyPaws always starts by recognising and celebrating that strength before suggesting new areas for growth.
