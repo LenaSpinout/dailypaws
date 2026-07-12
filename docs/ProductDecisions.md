@@ -384,3 +384,27 @@ The MVP ships in English only.
 All user-facing text must be stored in localisation resources rather than hardcoded in the UI.
 
 Additional languages will be added without changing application logic.
+
+---
+
+## PD-045 – Onboarding is conversational.
+
+Onboarding is a conversation, not a form.
+
+It should feel like talking with DailyPaws for the first time, not filling in fields.
+
+---
+
+## PD-046 – Onboarding builds excitement.
+
+The first Mission should feel like a natural continuation of the onboarding conversation.
+
+Onboarding should not feel like a separate, transactional step that ends before the real product begins.
+
+---
+
+## PD-047 – Ask only what changes the experience.
+
+Every onboarding question must influence the user's experience, future Conversations or Mission generation.
+
+If a question doesn't change what DailyPaws does next, it shouldn't be asked during onboarding.
