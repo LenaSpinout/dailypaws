@@ -205,3 +205,11 @@ Instead, it helps every relationship grow from its own strengths.
 Every relationship has at least one existing strength.
 
 DailyPaws always starts by recognising and celebrating that strength before suggesting new areas for growth.
+
+## PD-025 – Context is modular
+
+A Context is composed of one or more Context Factors.
+
+Only factors relevant to the current situation should be used.
+
+DailyPaws should avoid unnecessary complexity by only modelling what matters.
