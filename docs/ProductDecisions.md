@@ -213,3 +213,11 @@ A Context is composed of one or more Context Factors.
 Only factors relevant to the current situation should be used.
 
 DailyPaws should avoid unnecessary complexity by only modelling what matters.
+
+---
+
+## PD-026 – Behaviours are always evaluated in Context
+
+DailyPaws never evaluates a behaviour globally.
+
+Capabilities, challenges and progress are always understood within one or more Contexts.
