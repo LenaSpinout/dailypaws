@@ -106,17 +106,8 @@ Success is defined as:
 
 # For AI Collaborators
 
-Always begin by reading:
-
-1. `docs/AI_CONTEXT.md`
-2. `docs/ProductBible.md`
-3. `docs/ProductDecisions.md`
-4. `docs/ProductModel.md`
-5. `docs/Discovery.md`
-6. `docs/roadmap.md`
-7. The latest file in `docs/sessions/`
-
-These documents define how DailyPaws thinks.
+Start with `docs/AI_CONTEXT.md` — it defines the required reading order
+and how DailyPaws thinks.
 
 When making decisions:
 

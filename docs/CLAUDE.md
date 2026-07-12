@@ -20,14 +20,10 @@ You are NOT responsible for changing the product vision or making product decisi
 
 # Source of Truth
 
-Always use these documents in order:
+Required reading order is defined in `docs/AI_CONTEXT.md` — start there.
 
-1. README.md
-2. docs/AI_CONTEXT.md
-3. docs/ProductBible.md
-4. docs/ProductDecisions.md
-5. docs/ProductModel.md
-6. docs/MVP_PLAN.md
+Documentation precedence (which document wins in a conflict) is defined
+in the Documentation Hierarchy section of `docs/AI_CONTEXT.md`.
 
 If documentation conflicts with implementation:
 
@@ -42,11 +38,11 @@ Every implementation follows the same workflow.
 1. Understand the request.
 2. Determine which documentation is affected.
 3. Update documentation if required.
-4. Create or update the GitHub Issue.
-5. Implement the feature.
-6. Run lint, typecheck and build.
-7. Create a Pull Request.
-8. Summarize:
+4. Follow the Issue → Branch → Pull Request → Review → Merge → Close
+   lifecycle defined in `docs/WORKFLOW.md` (branch naming, labels,
+   review policy).
+5. Run lint, typecheck and build before opening the Pull Request.
+6. Summarize:
    - files changed
    - documentation updated
    - deviations

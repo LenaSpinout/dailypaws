@@ -106,7 +106,9 @@ If two documents conflict, the following order applies:
 1. ProductBible.md
 2. ProductDecisions.md
 3. ProductModel.md
-4. Discovery.md
+4. MVP_PLAN.md
+5. AI_CONTEXT.md
+6. CLAUDE.md
 
 ## Session workflow
 
