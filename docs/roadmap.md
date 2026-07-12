@@ -1,16 +1,27 @@
-Sprint 0
+# Roadmap
 
-✅ Vision
-✅ Product Decisions
-✅ Discovery
-🟡 Product Model
-✅ Family
-⬜ Dog
-⬜ Relationship
-⬜ Goals
-⬜ Mission Engine
-⬜ Conversation Engine
-⬜ Insight Engine
+## Sprint 0 – Product Discovery ✅ Complete
+
+- ✅ Vision
+- ✅ Product Decisions
+- ✅ Discovery
+- ✅ Product Model (all 10 concepts approved)
+  - ✅ Family
+  - ✅ Context
+  - ✅ Dog
+  - ✅ Relationship
+  - ✅ Goal
+  - ✅ Mission
+  - ✅ Conversation
+  - ✅ Insight
+  - ✅ Moment
+  - ✅ Journey
+
+See `docs/sprint_0_review.md` for details.
+
+## Sprint 1 – MVP 🟡 In Progress
+
+Building the first usable vertical slice. See `docs/MVP_PLAN.md`.
 
 ## Epic – Learning Experience
 

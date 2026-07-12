@@ -1,4 +1,4 @@
-no# Product Decisions
+# Product Decisions
 
 These are the fundamental principles that guide every product decision in DailyPaws.
 
@@ -135,7 +135,9 @@ The app models:
 
 2. How each relationship works.
 
-These are different concepts and evolve inde
+These are different concepts and evolve independently.
+
+---
 
 ## PD-016 – Start small
 

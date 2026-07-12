@@ -110,8 +110,11 @@ Always begin by reading:
 
 1. `docs/AI_CONTEXT.md`
 2. `docs/ProductBible.md`
-3. `docs/ProductModel.md`
-4. `docs/ProductDecisions.md`
+3. `docs/ProductDecisions.md`
+4. `docs/ProductModel.md`
+5. `docs/Discovery.md`
+6. `docs/roadmap.md`
+7. The latest file in `docs/sessions/`
 
 These documents define how DailyPaws thinks.
 
