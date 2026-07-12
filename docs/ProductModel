@@ -508,3 +508,56 @@ Some are completed.
 Some are replaced.
 
 New goals appear as the family and the dog grow together.
+
+# Mission
+
+**Status:** 🟢 Approved
+
+## Purpose
+
+A Mission is a small personalised activity designed to strengthen relationships, help the family move towards a Goal and improve DailyPaws' understanding of the dog.
+
+## Mission Types
+
+Every Mission belongs to one of four categories:
+
+- Observe
+- Practice
+- Explore
+- Celebrate
+
+## What does DailyPaws know?
+
+For each Mission, DailyPaws knows:
+
+- Mission Template
+- Goal
+- Dog
+- Person
+- Relationship
+- Context
+- Difficulty
+- Duration
+- Success Criteria
+
+## Relationship to other concepts
+
+A Mission is generated from:
+
+- Goal
+- Dog
+- Relationship
+- Context
+
+A completed Mission contributes to:
+
+- Conversations
+- Insights
+- Moments
+- Journey
+
+## Evolves
+
+A Mission exists only while it is active.
+
+The learning and results become part of the dog's Journey.
