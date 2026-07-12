@@ -561,3 +561,55 @@ A completed Mission contributes to:
 A Mission exists only while it is active.
 
 The learning and results become part of the dog's Journey.
+
+# Insight
+
+**Status:** 🟢 Approved
+
+## Purpose
+
+An Insight is a meaningful observation that helps the family better understand their dog, their relationships or their progress.
+
+Insights help transform observations into understanding.
+
+## What does DailyPaws know?
+
+For each Insight, DailyPaws knows:
+
+- Title
+- Description
+- Type
+- Supporting evidence
+- Confidence
+- Date created
+- User feedback
+
+## Insight Types
+
+Insights typically belong to one of four categories:
+
+- Dog
+- Relationship
+- Progress
+- Discovery
+
+## Relationship to other concepts
+
+Insights are generated from:
+
+- Conversations
+- Missions
+- Observations
+- Context
+
+Insights influence:
+
+- Future Missions
+- Conversations
+- Journey
+
+## Evolves
+
+Insights become more accurate as additional observations are collected.
+
+Users may confirm, reject or refine an Insight.
