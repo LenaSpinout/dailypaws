@@ -174,6 +174,15 @@ The first implementation should prioritise:
 
 Avoid premature optimisation.
 
+# technical decision
+
+## Internationalisation
+
+The MVP supports internationalisation from the beginning.
+
+Version 0.1.0 includes English only.
+
+All UI text must be loaded from localisation resources to allow additional languages in future releases.
 ---
 
 # Acceptance Criteria
