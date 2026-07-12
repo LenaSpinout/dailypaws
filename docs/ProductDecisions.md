@@ -1,4 +1,4 @@
-# Product Decisions
+no# Product Decisions
 
 These are the fundamental principles that guide every product decision in DailyPaws.
 
@@ -375,8 +375,10 @@ Each chapter reflects a period of growth, discovery or change.
 
 ## PD-043 – Internationalisation from day one
 
-DailyPaws is developed with internationalisation support from the beginning.
+DailyPaws is designed for internationalisation from the beginning.
 
 The MVP ships in English only.
 
-Additional languages are added through localisation files rather than hardcoded text.
+All user-facing text must be stored in localisation resources rather than hardcoded in the UI.
+
+Additional languages will be added without changing application logic.
