@@ -40,3 +40,64 @@ Every concept should answer four questions:
 - Insight
 - Moment
 - Journey
+
+
+# Family
+
+**Status:** 🟢 Approved
+
+## Purpose
+
+A Family is the group of people who share everyday life with one or more dogs.
+
+DailyPaws helps each person build their own relationship with the dog while the family grows together.
+
+## What does DailyPaws know?
+
+A Family contains:
+
+- One or more people
+- One or more dogs
+- Shared goals
+- Shared history
+- Shared settings
+
+## Person
+
+For each person, DailyPaws may know:
+
+- Name
+- Experience with dogs
+- Time spent with the dog
+- Preferred activities
+- Personal goals
+- One or more roles
+
+## Roles
+
+Roles describe how a person participates in the dog's life.
+
+Examples:
+
+- Primary Caregiver
+- Adventure Buddy
+- Play Partner
+- Trick Trainer
+- Calm Companion
+- Walking Partner
+
+A person can have several roles.
+
+Roles may change over time.
+
+## Relationship to other concepts
+
+Each person has one separate Relationship with each dog.
+
+The Relationship is not part of the Family concept and is defined separately.
+
+## Multiple dogs
+
+The Product Model supports several dogs in one family.
+
+The MVP will focus on one dog per family.
