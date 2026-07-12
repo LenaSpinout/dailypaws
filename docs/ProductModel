@@ -115,3 +115,117 @@ Purpose
 Context describes the situation in which a behaviour, mission or observation takes place.
 
 Many concepts in DailyPaws depend on Context.
+
+# Dog
+
+**Status:** 🟢 Approved
+
+## Purpose
+
+The Dog concept represents DailyPaws' current understanding of the dog.
+
+It is not intended to describe the absolute truth about the dog, but the app's best current understanding based on observations.
+
+## What does DailyPaws know?
+
+DailyPaws organises its understanding into five areas:
+
+### Personality
+
+A continuously updated understanding of the dog's personality.
+
+Personality is inferred from observations rather than stored directly.
+
+---
+
+### Motivations
+
+What currently motivates the dog.
+
+Examples include:
+
+- Food
+- Tug
+- Ball
+- Nose work
+- Water
+- Chasing
+- Social interaction
+
+---
+
+### Capabilities
+
+What the dog is currently capable of doing.
+
+Capabilities are always evaluated in a specific Context.
+
+Examples:
+
+- Name response
+- Recall
+- Heel
+- Settle
+- Cooperative care
+- Loose leash walking
+
+---
+
+### Challenges
+
+Situations that are currently difficult for the dog.
+
+Challenges are always linked to Context.
+
+Examples:
+
+- Dog meetings
+- Balls
+- Visitors
+- Being alone
+- Grooming
+
+---
+
+### Preferences
+
+Things the dog seems to enjoy or prefer.
+
+Examples:
+
+- Sleeping close to people
+- Travelling by car
+- Boat trips
+- Forest walks
+- Cafés
+
+## Confidence
+
+Every understanding has an internal confidence level.
+
+Confidence is used by DailyPaws to decide:
+
+- when to ask follow-up questions
+- how personalised missions should be
+- when enough evidence exists to generate an insight
+
+Confidence is not primarily shown to the user.
+
+## Relationship to other concepts
+
+Dog depends heavily on Context.
+
+The same behaviour may be understood differently depending on the situation.
+
+Dog is continuously updated through:
+
+- Missions
+- Conversations
+- Insights
+- Observations
+
+## Evolves
+
+The Dog model continuously evolves.
+
+No understanding is considered permanent.
