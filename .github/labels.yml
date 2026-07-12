@@ -1,0 +1,56 @@
+# Label taxonomy for DailyPaws.
+#
+# Synced to GitHub by .github/workflows/sync-labels.yml using
+# crazy-max/ghaction-github-labeler. This file is the source of truth —
+# edit it, merge to main, and labels are created/updated/deleted to match.
+
+# --- Type ------------------------------------------------------------
+- name: feature
+  color: "0E8A16"
+  description: New capability or user-facing functionality
+- name: bug
+  color: "D73A4A"
+  description: Something isn't working as intended
+- name: documentation
+  color: "0075CA"
+  description: Documentation-only changes
+- name: technical-debt
+  color: "5319E7"
+  description: Refactoring, cleanup or infrastructure work with no direct user-facing change
+
+# --- Area --------------------------------------------------------------
+- name: onboarding
+  color: "C5DEF5"
+  description: Related to the Onboarding flow
+- name: conversation
+  color: "C5DEF5"
+  description: Related to the Conversation Engine
+- name: mission
+  color: "C5DEF5"
+  description: Related to Missions and the Mission Engine
+- name: insight
+  color: "C5DEF5"
+  description: Related to Insights and the Insight Engine
+- name: journey
+  color: "C5DEF5"
+  description: Related to Journey
+- name: ai
+  color: "C5DEF5"
+  description: Related to AI/LLM behaviour
+- name: ui
+  color: "C5DEF5"
+  description: Related to UI/UX and screens
+- name: backend
+  color: "C5DEF5"
+  description: Related to backend, data or infrastructure
+
+# --- Priority ------------------------------------------------------------
+- name: p0
+  color: "B60205"
+  description: Blocking — must be fixed or shipped immediately
+- name: p1
+  color: "D93F0B"
+  description: High priority — next up
+- name: p2
+  color: "FBCA04"
+  description: Normal priority — planned but not urgent

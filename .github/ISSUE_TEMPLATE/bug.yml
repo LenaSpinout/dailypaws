@@ -1,0 +1,31 @@
+name: Bug
+description: Report something that isn't working
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Screen, environment, screenshots or logs if relevant.
+    validations:
+      required: false

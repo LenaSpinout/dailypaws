@@ -1,0 +1,59 @@
+name: Feature
+description: Propose or track a new feature
+title: "[Feature] "
+labels:
+  - feature
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What are we trying to achieve, and why does it matter?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: >
+        Relevant background. Link the Product Model concepts, Product
+        Decisions (PD-XXX) or prior discussion this builds on.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is included in this piece of work?
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of Scope
+      description: What is explicitly NOT included, to prevent scope creep.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: How do we know this is done? Bullet list, testable.
+    validations:
+      required: true
+  - type: textarea
+    id: required-documentation
+    attributes:
+      label: Required Documentation
+      description: >
+        Which docs (ProductBible, ProductDecisions, ProductModel, MVP_PLAN,
+        etc.) must this align with, or be updated alongside?
+    validations:
+      required: true
+  - type: textarea
+    id: definition-of-done
+    attributes:
+      label: Definition of Done
+      description: Code merged, deployed, docs updated, etc.
+    validations:
+      required: true
