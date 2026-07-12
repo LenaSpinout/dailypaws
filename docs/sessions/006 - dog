@@ -1,0 +1,45 @@
+# Session 006 – Dog
+
+## Goal
+
+Define the Dog concept.
+
+---
+
+## Decisions
+
+The Dog concept describes DailyPaws' understanding of the dog rather than objective truth.
+
+The understanding consists of:
+
+- Personality
+- Motivations
+- Capabilities
+- Challenges
+- Preferences
+
+Capabilities and Challenges are always evaluated in Context.
+
+Personality is inferred from observations rather than stored directly.
+
+Every understanding has an internal confidence level that helps DailyPaws decide when to ask questions, generate insights and personalise missions.
+
+---
+
+## Outcome
+
+✅ Dog approved.
+
+---
+
+## Confidence
+
+🟢 High
+
+The concept feels stable.
+
+---
+
+## Next session
+
+Relationship
