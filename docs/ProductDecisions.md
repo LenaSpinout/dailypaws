@@ -167,3 +167,9 @@ DailyPaws always starts by highlighting what already works.
 
 Only after recognising strengths should the app suggest opportunities for growth.
 
+## PD-020 – Support multiple dogs in the model
+
+The DailyPaws Product Model supports more than one dog in a family.
+
+The MVP will focus on one dog per family to keep the first version simple.
+
