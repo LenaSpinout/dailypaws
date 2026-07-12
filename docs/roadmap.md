@@ -4,7 +4,7 @@ Sprint 0
 ✅ Product Decisions
 ✅ Discovery
 🟡 Product Model
-⬜ Family
+✅ Family
 ⬜ Dog
 ⬜ Relationship
 ⬜ Goals
