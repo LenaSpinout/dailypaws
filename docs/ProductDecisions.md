@@ -344,3 +344,31 @@ A Moment may belong to:
 - A Relationship
 
 This allows meaningful memories to exist at different levels without comparing relationships.
+
+## PD-040 – Journey is a narrative, not a timeline
+
+Journey tells the evolving story of life together.
+
+It focuses on meaning rather than chronology.
+
+---
+
+## PD-041 – Journey is generated rather than stored
+
+Journey is generated from existing concepts such as:
+
+- Goals
+- Missions
+- Conversations
+- Insights
+- Moments
+
+Journey should avoid duplicating information already stored elsewhere.
+
+---
+
+## PD-042 – Journey is told in chapters
+
+The family's Journey should be presented as meaningful chapters rather than a chronological timeline.
+
+Each chapter reflects a period of growth, discovery or change.
