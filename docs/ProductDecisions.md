@@ -238,3 +238,22 @@ Goals may belong to:
 - An individual Person
 
 DailyPaws should support both shared and personal goals.
+
+## PD-029 – Every Mission serves a purpose
+
+Every Mission should contribute to at least one of the following:
+
+- Learn something
+- Strengthen a relationship
+- Move towards a Goal
+- Create a meaningful Moment
+
+If a Mission does not contribute to any of these, it should not exist.
+
+---
+
+## PD-030 – Missions are generated from Mission Templates
+
+DailyPaws stores reusable Mission Templates.
+
+The user receives personalised Missions generated from these templates based on the current Goal, Dog, Relationship and Context.
