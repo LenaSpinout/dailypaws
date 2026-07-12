@@ -1,0 +1,25 @@
+name: Technical Debt
+description: Refactoring, cleanup or infrastructure work with no direct user-facing change
+title: "[Tech Debt] "
+labels:
+  - technical-debt
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem?
+      description: What's awkward, risky or slowing us down today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk of not doing this
+    validations:
+      required: false
