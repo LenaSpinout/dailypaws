@@ -91,3 +91,51 @@ Do not write production code unless the relevant product decision or discovery n
 Do not turn DailyPaws into a generic obedience, trick or habit-tracking app.
 
 When uncertain, protect the product philosophy.
+
+# Working Agreement
+
+This repository follows a documentation-first approach.
+
+Before implementing features, understand the product.
+
+## Documentation hierarchy
+
+If two documents conflict, the following order applies:
+
+1. ProductBible.md
+2. ProductDecisions.md
+3. ProductModel.md
+4. Discovery.md
+
+## Session workflow
+
+Every session should:
+
+1. Focus on one concept.
+2. End with a documented decision.
+3. Update the relevant documentation.
+4. Move unresolved ideas to Questions.md or the Parking Lot.
+
+## Working principles
+
+- One session = one decision.
+- Documentation before implementation.
+- Build only from approved documentation.
+- New ideas go to the Parking Lot.
+- Avoid creating new documents unless absolutely necessary.
+
+## Product Discovery
+
+The current goal is to approve the Product Model, one concept at a time.
+
+Current order:
+
+1. Family ✅
+2. Dog
+3. Relationship
+4. Goal
+5. Mission
+6. Conversation
+7. Insight
+8. Moment
+9. Journey
