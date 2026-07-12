@@ -316,3 +316,31 @@ DailyPaws should naturally refer back to previous discussions to create a contin
 DailyPaws should ask questions with genuine curiosity rather than like a questionnaire.
 
 The experience should feel like talking to a thoughtful friend rather than filling in a form.
+
+## PD-037 – Moments capture what is worth remembering
+
+Moments represent meaningful events rather than routine activities.
+
+Only experiences that reflect growth, joy, connection or discovery should become Moments.
+
+---
+
+## PD-038 – Moments may be created by both DailyPaws and the family
+
+DailyPaws may suggest Moments based on observations and completed Missions.
+
+Families may also create Moments manually.
+
+Both become part of the Journey.
+
+---
+
+## PD-039 – Moments may belong to different scopes
+
+A Moment may belong to:
+
+- The Family
+- A Person
+- A Relationship
+
+This allows meaningful memories to exist at different levels without comparing relationships.
