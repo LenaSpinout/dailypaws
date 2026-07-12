@@ -1,5 +1,9 @@
 # Product Model
 
+The Product Model describes how DailyPaws understands families, dogs and relationships.
+
+Every other part of the system is built upon these concepts.
+
 > The Domain Model of DailyPaws
 
 This document describes the core concepts that exist in DailyPaws.
