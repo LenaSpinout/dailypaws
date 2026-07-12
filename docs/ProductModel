@@ -451,3 +451,60 @@ Relationships evolve through:
 ## Evolves
 
 Relationships are continuously strengthened through shared experiences.
+
+# Goal
+
+**Status:** 🟢 Approved
+
+## Purpose
+
+A Goal describes something meaningful that a family or an individual wants to achieve together with the dog.
+
+Goals provide direction for Missions and help DailyPaws personalise recommendations.
+
+## What does DailyPaws know?
+
+For every Goal, DailyPaws knows:
+
+- Name
+- Description
+- Why it matters
+- Owner (Family or Person)
+- Priority
+- Status
+- Related Relationships
+- Related Contexts
+
+## Goal Types
+
+Goals typically belong to one of the following categories:
+
+- Everyday Life
+- Adventure
+- Activity
+- Behaviour
+
+## Relationship to other concepts
+
+Goals influence:
+
+- Missions
+- Conversations
+- Insights
+- Journey
+
+Goals are influenced by:
+
+- Family
+- Dog
+- Relationship
+
+## Evolves
+
+Goals change over time.
+
+Some are completed.
+
+Some are replaced.
+
+New goals appear as the family and the dog grow together.
