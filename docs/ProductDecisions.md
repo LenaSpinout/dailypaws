@@ -173,3 +173,11 @@ The DailyPaws Product Model supports more than one dog in a family.
 
 The MVP will focus on one dog per family to keep the first version simple.
 
+
+## PD-021 – Context is a first-class concept
+
+DailyPaws understands dogs, relationships and missions in context.
+
+Behaviour, skills and progress are always evaluated within a specific context rather than globally.
+
+Context is therefore a core concept in the Product Model.
