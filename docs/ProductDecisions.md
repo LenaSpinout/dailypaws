@@ -384,3 +384,48 @@ The MVP ships in English only.
 All user-facing text must be stored in localisation resources rather than hardcoded in the UI.
 
 Additional languages will be added without changing application logic.
+
+---
+
+## PD-045 – Onboarding is conversational
+
+Onboarding should feel like the beginning of a relationship rather than account setup.
+
+The user experiences a conversation instead of completing a traditional form.
+
+Questions are asked one at a time, each with clear context and purpose.
+
+The initial onboarding collects only the information required to generate the family's first meaningful Mission.
+
+DailyPaws continues learning through future Conversations rather than trying to learn everything during onboarding.
+
+---
+
+## PD-046 – Onboarding builds excitement
+
+The purpose of onboarding is not only to collect information.
+
+It should create curiosity, anticipation and excitement for the family's first Mission.
+
+The first Mission should feel like the natural continuation of the onboarding conversation.
+
+The user should leave onboarding feeling that DailyPaws already knows something meaningful about their family and wants to continue the journey.
+
+---
+
+## PD-047 – Ask only what changes the experience
+
+Every onboarding question must have a clear purpose.
+
+A question should only be asked if the answer influences one or more of the following:
+
+- the family's first Mission,
+- future Conversations,
+- understanding of the Dog,
+- understanding of Relationships,
+- Goal selection,
+- future personalisation.
+
+Questions that do not influence the experience should not be included in onboarding.
+
+DailyPaws should prefer learning gradually over time rather than asking unnecessary questions upfront.

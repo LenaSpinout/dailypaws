@@ -57,9 +57,20 @@ The MVP includes:
 
 ## Onboarding
 
+A conversation, not a form. Questions are asked one at a time, each with
+clear context, and should leave the family curious about their first
+Mission rather than feeling like setup is finished.
+
+Collects only what's needed to personalise the first Mission:
+
 - Family
 - Dog
 - First Goal
+
+Every question must earn its place — it should influence the experience, a
+future Conversation, or how the first Mission is generated. The onboarding
+conversation flows directly into that first Mission; it shouldn't feel
+like a separate step that ends before the real product begins.
 
 ---
 
