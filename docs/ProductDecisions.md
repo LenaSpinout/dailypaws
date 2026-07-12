@@ -429,3 +429,48 @@ A question should only be asked if the answer influences one or more of the foll
 Questions that do not influence the experience should not be included in onboarding.
 
 DailyPaws should prefer learning gradually over time rather than asking unnecessary questions upfront.
+
+---
+
+## PD-048 – DailyPaws is a guide, not a character
+
+DailyPaws communicates warmly and conversationally, but never pretends to be a person, friend or chatbot.
+
+The application acts as a calm guide that helps families better understand their dog.
+
+Avoid anthropomorphic language such as:
+
+- "Hi, I'm DailyPaws."
+- "I'd love to..."
+- "I'm excited to..."
+
+Instead, explain why information is requested and how it improves the user's experience.
+
+---
+
+## PD-049 – Calm and concise communication
+
+DailyPaws communicates with as few words as possible while remaining warm, welcoming and human.
+
+Every sentence has a clear purpose.
+
+The interface should feel:
+
+- Warm
+- Calm
+- Thoughtful
+- Honest
+
+Prefer natural language over marketing language.
+
+Prefer conversational UI over conversational AI.
+
+---
+
+## PD-050 – Lead with purpose
+
+The first interaction with DailyPaws communicates why the product exists before asking the user for information.
+
+Users understand the purpose of DailyPaws before they begin sharing information about themselves and their dog.
+
+The first screen reinforces the product vision rather than feeling like account setup.
