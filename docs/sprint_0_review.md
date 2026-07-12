@@ -108,3 +108,15 @@ Sprint 1 focuses on building the first usable MVP.
 Success is defined as:
 
 A family can complete their first meaningful DailyPaws Mission within approximately ten minutes of installing the app.
+
+# A Note to Future Us
+
+If you ever feel tempted to add features, complexity or clever technology, come back and read the Product Bible.
+
+DailyPaws exists for one reason:
+
+To help families build extraordinary relationships with their dogs through tiny everyday moments.
+
+Protect that idea.
+
+Everything else is secondary.
