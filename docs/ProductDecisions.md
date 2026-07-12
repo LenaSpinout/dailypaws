@@ -372,3 +372,11 @@ Journey should avoid duplicating information already stored elsewhere.
 The family's Journey should be presented as meaningful chapters rather than a chronological timeline.
 
 Each chapter reflects a period of growth, discovery or change.
+
+## PD-043 – Internationalisation from day one
+
+DailyPaws is developed with internationalisation support from the beginning.
+
+The MVP ships in English only.
+
+Additional languages are added through localisation files rather than hardcoded text.
