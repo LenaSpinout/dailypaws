@@ -221,3 +221,20 @@ DailyPaws should avoid unnecessary complexity by only modelling what matters.
 DailyPaws never evaluates a behaviour globally.
 
 Capabilities, challenges and progress are always understood within one or more Contexts.
+
+## PD-027 – Every Goal needs a Why
+
+Every Goal must include the reason it matters.
+
+DailyPaws helps families achieve meaningful lives together rather than simply better obedience.
+
+---
+
+## PD-028 – Goals exist at multiple levels
+
+Goals may belong to:
+
+- The Family
+- An individual Person
+
+DailyPaws should support both shared and personal goals.
