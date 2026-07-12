@@ -387,24 +387,45 @@ Additional languages will be added without changing application logic.
 
 ---
 
-## PD-045 – Onboarding is conversational.
+## PD-045 – Onboarding is conversational
 
-Onboarding is a conversation, not a form.
+Onboarding should feel like the beginning of a relationship rather than account setup.
 
-It should feel like talking with DailyPaws for the first time, not filling in fields.
+The user experiences a conversation instead of completing a traditional form.
 
----
+Questions are asked one at a time, each with clear context and purpose.
 
-## PD-046 – Onboarding builds excitement.
+The initial onboarding collects only the information required to generate the family's first meaningful Mission.
 
-The first Mission should feel like a natural continuation of the onboarding conversation.
-
-Onboarding should not feel like a separate, transactional step that ends before the real product begins.
+DailyPaws continues learning through future Conversations rather than trying to learn everything during onboarding.
 
 ---
 
-## PD-047 – Ask only what changes the experience.
+## PD-046 – Onboarding builds excitement
 
-Every onboarding question must influence the user's experience, future Conversations or Mission generation.
+The purpose of onboarding is not only to collect information.
 
-If a question doesn't change what DailyPaws does next, it shouldn't be asked during onboarding.
+It should create curiosity, anticipation and excitement for the family's first Mission.
+
+The first Mission should feel like the natural continuation of the onboarding conversation.
+
+The user should leave onboarding feeling that DailyPaws already knows something meaningful about their family and wants to continue the journey.
+
+---
+
+## PD-047 – Ask only what changes the experience
+
+Every onboarding question must have a clear purpose.
+
+A question should only be asked if the answer influences one or more of the following:
+
+- the family's first Mission,
+- future Conversations,
+- understanding of the Dog,
+- understanding of Relationships,
+- Goal selection,
+- future personalisation.
+
+Questions that do not influence the experience should not be included in onboarding.
+
+DailyPaws should prefer learning gradually over time rather than asking unnecessary questions upfront.
