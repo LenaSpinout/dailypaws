@@ -135,7 +135,9 @@ The app models:
 
 2. How each relationship works.
 
-These are different concepts and evolve inde
+These are different concepts and evolve independently.
+
+---
 
 ## PD-016 – Start small
 

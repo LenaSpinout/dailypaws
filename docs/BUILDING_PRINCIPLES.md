@@ -20,7 +20,7 @@ We can always improve later.
 
 ## 3. Real users before perfect architecture
 
-Bellman using the app is more important than perfect code.
+A real family using the app is more important than perfect code.
 
 ---
 
