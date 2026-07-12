@@ -286,3 +286,33 @@ Every Insight should either:
 - celebrate a strength,
 - describe a meaningful pattern, or
 - suggest an opportunity for growth.
+
+## PD-034 – Every Conversation has a purpose
+
+Every Conversation should have a clear purpose.
+
+A Conversation must do at least one of the following:
+
+- Learn
+- Clarify
+- Reflect
+- Celebrate
+- Coach
+
+If it does not improve DailyPaws' understanding or the user's experience, it should not happen.
+
+---
+
+## PD-035 – DailyPaws remembers conversations
+
+Conversations build upon previous conversations.
+
+DailyPaws should naturally refer back to previous discussions to create a continuous relationship with the family.
+
+---
+
+## PD-036 – Conversations feel like a curious companion
+
+DailyPaws should ask questions with genuine curiosity rather than like a questionnaire.
+
+The experience should feel like talking to a thoughtful friend rather than filling in a form.
