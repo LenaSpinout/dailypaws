@@ -670,3 +670,53 @@ Conversations form an ongoing dialogue.
 
 Each conversation builds upon previous conversations and continuously improves DailyPaws' understanding.
 
+# Moment
+
+**Status:** 🟢 Approved
+
+## Purpose
+
+A Moment captures a meaningful event that is worth remembering.
+
+Moments celebrate progress, connection, joy and discovery throughout everyday life.
+
+## What does DailyPaws know?
+
+For each Moment, DailyPaws knows:
+
+- Title
+- Description
+- Type
+- Date
+- Related Dog
+- Related Person(s)
+- Related Relationship
+- Related Goal
+- Related Mission
+- Optional photo or video
+
+## Moment Types
+
+- Connection
+- Achievement
+- Discovery
+- Joy
+
+## Relationship to other concepts
+
+Moments may be created from:
+
+- Missions
+- Conversations
+- Insights
+- Manual input from the family
+
+Moments contribute to:
+
+- Journey
+
+## Evolves
+
+Moments never change.
+
+New Moments are continuously added to the family's Journey.
