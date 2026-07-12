@@ -613,3 +613,56 @@ Insights influence:
 Insights become more accurate as additional observations are collected.
 
 Users may confirm, reject or refine an Insight.
+
+# Conversation
+
+**Status:** 🟢 Approved
+
+## Purpose
+
+A Conversation helps DailyPaws better understand the dog, the family and their relationships through natural dialogue.
+
+## What does DailyPaws know?
+
+For each Conversation, DailyPaws knows:
+
+- Purpose
+- Topic
+- Participants
+- Related Dog
+- Related Goal
+- Related Mission
+- Related Context
+- User responses
+- Resulting observations
+
+## Conversation Types
+
+- Discover
+- Reflect
+- Clarify
+- Celebrate
+- Coach
+
+## Relationship to other concepts
+
+Conversations may be triggered by:
+
+- Missions
+- Insights
+- User questions
+- Changes in confidence
+
+Conversations contribute to:
+
+- Dog
+- Relationship
+- Insights
+- Journey
+
+## Evolves
+
+Conversations form an ongoing dialogue.
+
+Each conversation builds upon previous conversations and continuously improves DailyPaws' understanding.
+
