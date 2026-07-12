@@ -1,4 +1,4 @@
-# Product Decisions
+no# Product Decisions
 
 These are the fundamental principles that guide every product decision in DailyPaws.
 
@@ -181,3 +181,11 @@ DailyPaws understands dogs, relationships and missions in context.
 Behaviour, skills and progress are always evaluated within a specific context rather than globally.
 
 Context is therefore a core concept in the Product Model.
+
+## PD-022 – Store observations, not labels
+
+DailyPaws stores observations rather than fixed personality labels.
+
+Personality is an interpretation generated from observations.
+
+This allows the app to continuously refine its understanding of the dog as new observations are made.
