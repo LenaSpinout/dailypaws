@@ -32,3 +32,9 @@ everything."
 - Alternative opening question "Who are we getting to know
   today?" — revisit after MVP feedback.
 - Family member roles (Primary caregiver etc.) — deferred.
+
+## Implementation notes
+
+The separate Thank you screen was dropped during implementation.
+The goal step's primary button leads straight into the first
+Mission. Approved by Founder and Technical Advisor.

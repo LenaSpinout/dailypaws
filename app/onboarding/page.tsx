@@ -25,8 +25,13 @@ export default function OnboardingPage() {
   const [goalNoteInput, setGoalNoteInput] = useState("");
 
   useEffect(() => {
+    // Guards direct/repeat visits to /onboarding after it's already done.
+    // Must agree with handleGoalSubmit's own navigation target below -
+    // otherwise this fires on the same completed-state change and races
+    // router.push("/mission") there, occasionally winning and stranding
+    // the user back on Home instead.
     if (hydrated && completed) {
-      router.replace("/");
+      router.replace("/mission");
     }
   }, [hydrated, completed, router]);
 
@@ -74,7 +79,7 @@ export default function OnboardingPage() {
     const note = goalNoteInput.trim() || null;
     advance();
     onboarding.completeGoalStep(selectedGoalType, note);
-    router.push("/");
+    router.push("/mission");
   }
 
   return (

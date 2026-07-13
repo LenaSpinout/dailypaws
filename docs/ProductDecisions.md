@@ -494,7 +494,9 @@ The first version follows a seven-step flow:
    selectable dream cards, each mapped to a Goal Type
    (e.g. Calm walks → Everyday Life, Adventure companion →
    Adventure), plus an optional free-text field.
-7. Thank you → Create first Mission. No summary screen.
+7. Create first Mission — directly from the dream cards step.
+   No thank-you or summary screen; the first Mission is the
+   thank-you.
 
 Principles:
 
