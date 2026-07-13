@@ -1,6 +1,6 @@
 # MVP Plan
 
-**Version:** 0.1.0
+**Version:** 0.1
 
 **Status:** Approved
 
@@ -191,7 +191,7 @@ Avoid premature optimisation.
 
 The MVP supports internationalisation from the beginning.
 
-Version 0.1.0 includes English only.
+Version 0.1 includes English only.
 
 All UI text must be loaded from localisation resources to allow additional languages in future releases.
 ---
@@ -204,24 +204,9 @@ A real family can use DailyPaws with a real dog and complete at least one meanin
 
 ---
 
-# Version Roadmap
+# Release Planning
 
-v0.1.0
-
-First usable MVP.
-
-v0.2.0
-
-Better Mission personalisation.
-
-v0.3.0
-
-Journey.
-
-v0.4.0
-
-Family collaboration.
-
-v1.0.0
-
-Public release.
+Release planning lives in `docs/releases/` — see that folder for
+the current release-by-release scope, goals, epics and features.
+This document describes the MVP itself; it does not own release
+sequencing.

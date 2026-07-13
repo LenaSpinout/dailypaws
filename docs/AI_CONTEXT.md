@@ -88,7 +88,8 @@ Before working on the project, read:
 5. docs/DesignDecisions.md
 6. docs/Discovery.md
 7. docs/roadmap.md
-8. latest file in docs/sessions/
+8. docs/releases/ (current release plan)
+9. latest file in docs/sessions/
 
 ## Working rules
 
