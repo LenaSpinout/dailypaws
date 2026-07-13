@@ -487,6 +487,7 @@ Goals typically belong to one of the following categories:
 - Adventure
 - Activity
 - Behaviour
+- Connection
 
 ## Relationship to other concepts
 

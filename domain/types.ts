@@ -7,7 +7,12 @@ export interface Person {
 
 export type LifeStage = "Puppy" | "Young dog" | "Adult" | "Senior";
 
-export type GoalType = "Everyday Life" | "Adventure" | "Activity" | "Behaviour";
+export type GoalType =
+  | "Everyday Life"
+  | "Adventure"
+  | "Activity"
+  | "Behaviour"
+  | "Connection";
 
 export interface Goal {
   id: string;
