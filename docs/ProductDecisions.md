@@ -474,3 +474,35 @@ The first interaction with DailyPaws communicates why the product exists before 
 Users understand the purpose of DailyPaws before they begin sharing information about themselves and their dog.
 
 The first screen reinforces the product vision rather than feeling like account setup.
+
+---
+
+## PD-051 – Onboarding flow
+
+Onboarding is the first relationship between the family and
+DailyPaws, not a registration.
+
+The first version follows a seven-step flow:
+
+1. Welcome — communicates purpose before asking anything (PD-050).
+2. What's your dog's name?
+3. How old is [dog]? — life stage options (Puppy, Young dog,
+   Adult, Senior), not a date. Optional birthday afterwards.
+4. Who are we talking to today?
+5. Who else shares life with [dog]? — names only.
+6. What do you hope life with [dog] feels like in six months? —
+   selectable dream cards, each mapped to a Goal Type
+   (e.g. Calm walks → Everyday Life, Adventure companion →
+   Adventure), plus an optional free-text field.
+7. Thank you → Create first Mission. No summary screen.
+
+Principles:
+
+- Five minutes or less. One question at a time.
+- Every answer is saved automatically. Closing the app mid-flow
+  resumes with "Welcome back" — never "Start over."
+- Progress shown as "Step X of 5", not percentages.
+- Back and Skip available on nearly everything.
+- Deliberately incomplete: breed, nicknames, relationships,
+  health data and routines are learned later through
+  Conversations, not asked upfront.
