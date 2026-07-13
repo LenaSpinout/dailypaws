@@ -31,3 +31,9 @@ Building the first usable vertical slice. See `docs/MVP_PLAN.md`.
 - Personality insights
 - Relationship insights
 - Meet Your Dog summary
+
+**Note:** `docs/releases/` also defines Epics per release (e.g.
+v0.1's Onboarding/Home/Missions/Reflection/Insights), using the term
+differently than the single "Learning Experience" epic above and
+without an equivalent entry. Tracked as an open question in
+`docs/Questions.md`.

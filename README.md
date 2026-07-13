@@ -72,6 +72,7 @@ Supporting documentation includes:
 - Discovery
 - Design Decisions
 - Roadmap
+- Release Plans (`docs/releases/`)
 - Questions
 - Changelog
 - Session notes

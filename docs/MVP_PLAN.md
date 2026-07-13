@@ -206,6 +206,13 @@ A real family can use DailyPaws with a real dog and complete at least one meanin
 
 # Version Roadmap
 
+**Note:** `docs/releases/` now also describes the release plan, with
+content that differs from the list below (e.g. its v0.2 focus is
+Conversations/Profiles/Moments rather than "Better Mission
+personalisation", and it has no v0.4 entry). Which one is current is
+tracked as an open question in `docs/Questions.md` — this list is
+left as-is until that's resolved.
+
 v0.1.0
 
 First usable MVP.
