@@ -5,15 +5,27 @@ export interface Person {
   name: string;
 }
 
+export type LifeStage = "Puppy" | "Young dog" | "Adult" | "Senior";
+
+export type GoalType = "Everyday Life" | "Adventure" | "Activity" | "Behaviour";
+
+export interface Goal {
+  id: string;
+  type: GoalType;
+  note?: string;
+}
+
 export interface Dog {
   id: string;
   name: string;
+  lifeStage?: LifeStage;
 }
 
 export interface Family {
   id: string;
   people: Person[];
   dog: Dog;
+  goal?: Goal;
 }
 
 export interface MissionTemplate {
