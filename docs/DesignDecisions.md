@@ -77,3 +77,25 @@ Everyday Life, Adventure, Activity or Behaviour.
 
 Plus an optional free-text field, unchanged: "Anything else you'd
 love to share? (optional)"
+
+---
+
+## DD-003 – Reflection is a UX concept, not a Product Model concept
+
+**Status:** 🟢 Approved
+
+Reflection represents the user experience of collecting observations
+after a Mission. It is a UX flow, not a first-class Product Model
+concept, and does not get its own entry in `ProductModel.md`'s Core
+Concepts list.
+
+What Reflection actually produces — observations that feed the Dog,
+Relationship and Insight concepts — is modelled through those
+existing concepts. Reflection itself is the screen and interaction
+that collects them, similar to how Onboarding is a UX flow that
+produces Family/Dog/Goal data without being a Product Model concept
+in its own right.
+
+If Reflection is skipped, no new observations are created and no new
+Insight is generated from that Mission; the next Mission is
+generated using existing knowledge only.
