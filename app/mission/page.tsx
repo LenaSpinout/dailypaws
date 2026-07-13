@@ -1,21 +1,35 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { getTodaysMission } from "@/data/mission-templates";
 import { format } from "@/i18n/format";
 import { strings } from "@/i18n/strings";
 import { useMissionSession } from "@/state/mission-session";
+import { useOnboarding } from "@/state/onboarding-session";
 import styles from "./page.module.css";
 
 export default function MissionPage() {
   const router = useRouter();
   const { status, startMission, completeMission } = useMissionSession();
+  const { hydrated, completed, hasStarted, family } = useOnboarding();
   const mission = getTodaysMission();
+
+  useEffect(() => {
+    if (!hydrated) return;
+    if (!completed) {
+      router.replace(hasStarted ? "/onboarding" : "/welcome");
+    }
+  }, [hydrated, completed, hasStarted, router]);
 
   function handleComplete() {
     completeMission();
     router.push("/reflection");
+  }
+
+  if (!hydrated || !completed || !family) {
+    return null;
   }
 
   return (
