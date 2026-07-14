@@ -164,13 +164,16 @@ export function getTodaysMission(
   goalType?: GoalType,
   lastMissionId?: string | null
 ): MissionTemplate {
-  const matchesGoal = (template: MissionTemplate) => template.goalType === goalType;
-  const isNotRepeat = (template: MissionTemplate) => template.id !== lastMissionId;
+  const matching = missionTemplates.filter((template) => template.goalType === goalType);
+  // Fall back to rotating the full library if no template matches the
+  // Goal Type yet (e.g. Behaviour, not currently in the Mission Catalog).
+  const pool = matching.length > 0 ? matching : missionTemplates;
 
-  return (
-    missionTemplates.find((template) => matchesGoal(template) && isNotRepeat(template)) ??
-    missionTemplates.find(isNotRepeat) ??
-    missionTemplates.find(matchesGoal) ??
-    missionTemplates[0]
-  );
+  // Rotate to the next Mission after the last one shown, wrapping around.
+  // Deterministic and simple: no randomness, no weighting, no progression —
+  // just cycles through every Mission available for the Goal Type in turn.
+  const lastIndex = pool.findIndex((template) => template.id === lastMissionId);
+  const nextIndex = lastIndex === -1 ? 0 : (lastIndex + 1) % pool.length;
+
+  return pool[nextIndex];
 }
