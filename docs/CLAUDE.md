@@ -42,6 +42,12 @@ Every implementation follows the same workflow.
    lifecycle defined in `docs/WORKFLOW.md` (branch naming, labels,
    review policy).
 5. Run lint, typecheck and build before opening the Pull Request.
+   Whenever a change introduces or modifies persisted state (e.g.
+   localStorage), explicitly verify hydration and refresh behaviour —
+   reload the app at each affected step and confirm state survives
+   correctly, with no false redirects during hydration — before
+   considering the issue complete. Lint/typecheck/build do not catch
+   this; it requires actually exercising the app.
 6. Summarize:
    - files changed
    - documentation updated
