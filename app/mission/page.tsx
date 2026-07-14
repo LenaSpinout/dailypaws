@@ -12,10 +12,15 @@ import styles from "./page.module.css";
 
 export default function MissionPage() {
   const router = useRouter();
-  const { status, startMission, completeMission, hydrated: missionHydrated } =
-    useMissionSession();
+  const {
+    status,
+    startMission,
+    completeMission,
+    hydrated: missionHydrated,
+    history,
+  } = useMissionSession();
   const { hydrated, completed, hasStarted, family } = useOnboarding();
-  const mission = getTodaysMission(family?.goal?.type);
+  const mission = getTodaysMission(family?.goal?.type, history[0]?.missionId ?? null);
 
   useEffect(() => {
     if (!hydrated) return;

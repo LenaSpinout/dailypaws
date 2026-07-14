@@ -53,7 +53,17 @@ export const missionTemplates: MissionTemplate[] = [
   },
 ];
 
-export function getTodaysMission(goalType?: GoalType): MissionTemplate {
-  const match = missionTemplates.find((template) => template.goalType === goalType);
-  return match ?? missionTemplates[0];
+export function getTodaysMission(
+  goalType?: GoalType,
+  lastMissionId?: string | null
+): MissionTemplate {
+  const matchesGoal = (template: MissionTemplate) => template.goalType === goalType;
+  const isNotRepeat = (template: MissionTemplate) => template.id !== lastMissionId;
+
+  return (
+    missionTemplates.find((template) => matchesGoal(template) && isNotRepeat(template)) ??
+    missionTemplates.find(isNotRepeat) ??
+    missionTemplates.find(matchesGoal) ??
+    missionTemplates[0]
+  );
 }
