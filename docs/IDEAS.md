@@ -386,3 +386,81 @@ Different families may receive different suggestions for the same behaviour base
 - How much evidence should DailyPaws gather before offering suggestions?
 - Should families explicitly ask for help, or should DailyPaws sometimes recognise recurring patterns itself?
 - How can suggestions remain supportive without feeling prescriptive or implying there is only one "correct" way to train a dog?
+
+## Idea: Mission Progression
+
+### Background
+
+Not every Mission will be equally meaningful for every dog and family.
+
+For some families, sitting quietly together may be a new and valuable experience. For others, it is already part of everyday life.
+
+A Mission should create the possibility of discovering something new. If the outcome is already obvious, the Mission risks feeling repetitive or uninteresting.
+
+### Product Principle
+
+**Maintain curiosity, not difficulty.**
+
+The goal is not to make Missions harder over time.
+
+The goal is to continue offering experiences that have the potential to surprise, teach or strengthen the relationship.
+
+### Idea
+
+As DailyPaws gradually learns more about the dog and family, it could adapt future Missions based on previous experiences.
+
+Examples:
+
+- Introduce new environments instead of familiar ones.
+- Suggest slightly more adventurous variations of previous Missions.
+- Build on successful experiences rather than repeating identical ones.
+- Avoid Missions that are already well understood by the family.
+
+The focus should always remain on creating opportunities for discovery rather than increasing challenge.
+
+### Examples
+
+Instead of repeating:
+
+> Sit quietly together for two minutes.
+
+DailyPaws might later suggest:
+
+> Sit together somewhere you've never been before and notice how your dog settles in a new environment.
+
+Instead of repeating:
+
+> Let your dog choose the walking direction.
+
+DailyPaws might later suggest:
+
+> Let your dog guide today's walk through a completely new park.
+
+The activity evolves, while the underlying purpose remains the same.
+
+### Product Principles
+
+- Curiosity is more important than difficulty.
+- Novelty is more valuable than repetition.
+- Progression should feel natural, not gamified.
+- Missions should evolve with the relationship.
+- Never increase difficulty for its own sake.
+
+### Future possibilities
+
+DailyPaws could eventually recognise that certain types of Missions have become familiar and begin suggesting richer or more varied experiences.
+
+Progression might be influenced by:
+
+- previous Missions,
+- Reflection outcomes,
+- confirmed Insights,
+- the dog's life stage,
+- changing family goals,
+- seasons and environments.
+
+### Open questions
+
+- When should DailyPaws decide that a Mission has become "too familiar"?
+- Should progression happen automatically or be chosen by the family?
+- How can progression maintain curiosity without making families feel they are being "tested"?
