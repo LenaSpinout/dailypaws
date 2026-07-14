@@ -44,4 +44,18 @@ Sprint 0 completed.
   Behaviour out. Not resolved here — this is a product decision to be
   made separately, not assumed.
 
+## From implementing issue #20 (Mission library)
+
+- **The approved Mission Catalog doesn't include dog-name or
+  life-stage personalisation.** Issue #20's original Acceptance
+  Criteria required Mission copy to substitute the dog's name and use
+  life-stage-appropriate wording, but none of the 16 Missions in
+  `docs/MissionCatalog.md` contain a `{dogName}` placeholder or any
+  life-stage variation — they're written generically ("your dog").
+  Implemented the Mission Library exactly as documented, per this
+  round's instructions, without adding personalisation the Catalog
+  doesn't call for. Left unresolved whether the Catalog should be
+  revised to add it, or whether the original AC should be updated to
+  match the approved content.
+
 Future questions will be added during implementation.
