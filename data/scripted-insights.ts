@@ -3,24 +3,27 @@ import type { Insight } from "@/domain/types";
 // One variant per Reflection answer, each matching a distinct PD-033
 // category: "great" celebrates a strength, "okay" describes a pattern,
 // "tricky" suggests an opportunity for growth — never a judgment.
+// A single Reflection is not enough evidence to claim confidence, rhythm
+// or a general pattern, so each description stays grounded in today's
+// Mission specifically rather than implying a broader conclusion.
 const insightsByReflection: Record<string, Insight> = {
   great: {
-    id: "confident-together",
-    title: "You're building real confidence together",
+    id: "suited-you-both",
+    title: "This seemed to suit you both",
     description:
-      "I noticed today felt easy for both of you. Moments like this are exactly how trust grows.",
+      "Today's Mission felt positive. Something similar may be worth exploring again.",
   },
   okay: {
-    id: "steady-progress",
-    title: "You're finding your rhythm",
+    id: "useful-everyday-moment",
+    title: "A useful everyday moment",
     description:
-      "I noticed today was steady, not perfect — and that's exactly how relationships grow. Every attempt counts.",
+      "It sounds like today felt fairly neutral. Another experience may help reveal more.",
   },
   tricky: {
-    id: "learning-together",
-    title: "Tricky moments teach us the most",
+    id: "something-worth-exploring",
+    title: "Something worth exploring",
     description:
-      "I noticed today didn't go quite as planned. That's not a setback — it's useful information for what to try next.",
+      "This seemed harder today. That may help DailyPaws suggest a gentler or different Mission next time.",
   },
 };
 
