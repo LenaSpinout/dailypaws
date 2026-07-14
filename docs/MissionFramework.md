@@ -2,6 +2,16 @@
 
 This document defines what makes a DailyPaws Mission unique. It is the foundation for the Mission Library and should guide both product design and future content creation.
 
+Mission Framework defines how Missions should feel, not how they are implemented.
+
+Implements: PD-003 (Missions, not training sessions), PD-029 (Every
+Mission serves a purpose), PD-030 (Missions are generated from Mission
+Templates).
+
+If this document ever conflicts with `ProductDecisions.md` or
+`ProductModel.md`, those documents win — see the Documentation
+Hierarchy in `AI_CONTEXT.md`.
+
 ## Purpose
 
 A DailyPaws Mission is a small shared experience that helps a family understand their dog a little better.
@@ -40,15 +50,22 @@ Mission Types are an internal concept but may be presented differently in the us
 
 ## Mission Anatomy
 
-Every Mission contains:
+`ProductModel.md`'s Mission concept is the source of truth for what a
+Mission and its Mission Template contain. This document does not
+redefine or duplicate that list — it describes how those fields come
+together to create a great DailyPaws Mission:
 
-- Goal Type
-- Mission Type
-- Mission DNA
-- User-facing copy
-- Reflection prompt
-
-Future versions may also include context, duration and energy level.
+- **Goal Type** determines which Mission a family is likely to
+  receive, so every Mission should clearly serve one Goal Type.
+- **Mission Type** (Observe, Practice, Explore, Celebrate — see
+  above) shapes a Mission's emotional register and pacing.
+- **Mission DNA** (see below) keeps a Mission focused on one simple,
+  answerable question, regardless of what its other fields say.
+- **User-facing copy** should follow the Writing Guidelines below.
+- Every Mission should naturally lead into reflection once completed
+  — see `DesignDecisions.md` DD-003. This is a quality every Mission
+  should have, not a Mission-specific reflection question or new
+  scope.
 
 ---
 
@@ -111,6 +128,8 @@ Write as if DailyPaws is a calm, curious companion exploring the dog together wi
 ### Writing Principles
 
 - Write to the family, not the dog.
+- Support personalisation where appropriate — for example the dog's
+  name and life stage (see issue #20).
 - Prefer curiosity over instruction.
 - Explain why the Mission matters.
 - Avoid implying there is a correct outcome.
