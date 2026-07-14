@@ -87,6 +87,7 @@ Every **Feature** issue must contain:
 - Out of Scope
 - Acceptance Criteria
 - Required Documentation
+- Dependencies (other issues this depends on or relates to, if any)
 - Definition of Done
 
 ---
