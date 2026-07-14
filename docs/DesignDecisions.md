@@ -99,3 +99,28 @@ in its own right.
 If Reflection is skipped, no new observations are created and no new
 Insight is generated from that Mission; the next Mission is
 generated using existing knowledge only.
+
+---
+
+## DD-004 – Conversation Types are internal, not user-facing
+
+**Status:** 🟢 Approved
+
+Implements: `ProductModel.md`'s Conversation concept (Discover,
+Reflect, Clarify, Celebrate, Coach types). Same treatment as Insight
+Types — see `docs/releases/v0.1.md` Epic 6.
+
+Conversation Types are an internal concept used by the Conversation
+Engine to select and shape follow-up questions. They are never
+exposed to the user — the family should never see language like
+"Now you have a Clarify Conversation." They should only experience a
+natural question.
+
+Example:
+
+"Yesterday Bellman seemed very curious about the new park."
+
+"Did he seem more confident there than usual?"
+
+This happens to be a Clarify Conversation internally, but that's our
+internal language, not something the user ever sees.
