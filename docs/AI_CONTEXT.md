@@ -86,10 +86,12 @@ Before working on the project, read:
 3. docs/ProductDecisions.md
 4. docs/ProductModel.md
 5. docs/DesignDecisions.md
-6. docs/Discovery.md
-7. docs/roadmap.md
-8. docs/releases/ (current release plan)
-9. latest file in docs/sessions/
+6. docs/Architecture.md
+7. docs/DEVELOPMENT_PLAYBOOK.md
+8. docs/Discovery.md *(optional for implementation, recommended for product work)*
+9. docs/roadmap.md
+10. docs/releases/ (current release plan)
+11. latest file in docs/sessions/
 
 ## Working rules
 
