@@ -155,6 +155,7 @@ An issue is complete when:
 
 The implementation stops after opening the Pull Request.
 
+No new implementation starts before the previous implementation PR has been merged.
 ---
 
 # Pull Request Review
