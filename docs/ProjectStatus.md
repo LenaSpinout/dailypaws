@@ -2,16 +2,26 @@
 
 Current Phase
 
-Sprint 0 Complete ✅
+# Sprint 2
 
-Next Phase
+## Goal
 
-Sprint 1 – MVP
+Validate the first personalised learning loop.
 
-Current Goal
+## Completed
 
-Define MVP
+- ✅ #16 Data layer
+- ✅ #17 Mission selection
 
+## Current
+
+- #18 Tomorrow's Mission
+
+## Remaining
+
+- #32
+- #18
+- #19
 
 ## Health
 
