@@ -120,11 +120,8 @@ This Mission often reveals small details they have never noticed before.
 
 ## M-002
 
-**ID**
-M-002
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Everyday Life
@@ -133,23 +130,20 @@ Everyday Life
 Practice
 
 **Mission DNA**
-_(not yet written)_
+Discover what helps your dog settle beside you.
 
 **Mission**
-_(not yet written)_
+Sit quietly together for two minutes and let your dog choose where they want to be.
 
 **Why**
-_(not yet written)_
+Sometimes the strongest connection comes from doing nothing together.
 
 ---
 
 ## M-003
 
-**ID**
-M-003
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Everyday Life
@@ -158,23 +152,20 @@ Everyday Life
 Explore
 
 **Mission DNA**
-_(not yet written)_
+Discover your neighbourhood through your dog's nose.
 
 **Mission**
-_(not yet written)_
+Let your dog choose the direction at the next three opportunities during today's walk.
 
 **Why**
-_(not yet written)_
+Your dog's choices reveal what interests them most.
 
 ---
 
 ## M-004
 
-**ID**
-M-004
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Everyday Life
@@ -183,23 +174,20 @@ Everyday Life
 Celebrate
 
 **Mission DNA**
-_(not yet written)_
+Discover your dog's happiest moment today.
 
 **Mission**
-_(not yet written)_
+Notice when your dog seems happiest today and spend a few extra minutes sharing that moment.
 
 **Why**
-_(not yet written)_
+Joy is worth recognising and repeating.
 
 ---
 
 ## M-005
 
-**ID**
-M-005
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Adventure
@@ -208,23 +196,20 @@ Adventure
 Observe
 
 **Mission DNA**
-_(not yet written)_
+Discover how your dog explores somewhere new.
 
 **Mission**
-_(not yet written)_
+Visit a place your dog has never been before and simply watch what they investigate first.
 
 **Why**
-_(not yet written)_
+New environments reveal curiosity and confidence.
 
 ---
 
 ## M-006
 
-**ID**
-M-006
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Adventure
@@ -233,23 +218,20 @@ Adventure
 Practice
 
 **Mission DNA**
-_(not yet written)_
+Discover how your dog handles a small challenge.
 
 **Mission**
-_(not yet written)_
+Invite your dog to explore a new surface, bridge, rock or fallen tree at their own pace.
 
 **Why**
-_(not yet written)_
+Confidence grows through exploration, never through pressure.
 
 ---
 
 ## M-007
 
-**ID**
-M-007
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Adventure
@@ -258,23 +240,20 @@ Adventure
 Explore
 
 **Mission DNA**
-_(not yet written)_
+Experience a mini adventure together.
 
 **Mission**
-_(not yet written)_
+Drive somewhere within 15 minutes that you've never walked before.
 
 **Why**
-_(not yet written)_
+Small adventures often become memorable moments.
 
 ---
 
 ## M-008
 
-**ID**
-M-008
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Adventure
@@ -283,23 +262,20 @@ Adventure
 Celebrate
 
 **Mission DNA**
-_(not yet written)_
+Let your dog plan today's adventure.
 
 **Mission**
-_(not yet written)_
+For ten minutes, let your dog decide where to go whenever it's safe.
 
 **Why**
-_(not yet written)_
+Seeing the world through your dog's choices is an adventure in itself.
 
 ---
 
 ## M-009
 
-**ID**
-M-009
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Activity
@@ -308,23 +284,20 @@ Activity
 Observe
 
 **Mission DNA**
-_(not yet written)_
+Discover your dog's favourite game.
 
 **Mission**
-_(not yet written)_
+Offer two different games today and notice which one your dog chooses.
 
 **Why**
-_(not yet written)_
+Play reveals personality.
 
 ---
 
 ## M-010
 
-**ID**
-M-010
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Activity
@@ -333,23 +306,20 @@ Activity
 Practice
 
 **Mission DNA**
-_(not yet written)_
+Discover your dog's problem-solving style.
 
 **Mission**
-_(not yet written)_
+Hide a few treats or a toy and let your dog figure out how to find them.
 
 **Why**
-_(not yet written)_
+Every dog solves problems differently.
 
 ---
 
 ## M-011
 
-**ID**
-M-011
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Activity
@@ -358,23 +328,20 @@ Activity
 Explore
 
 **Mission DNA**
-_(not yet written)_
+Try something you've never done together.
 
 **Mission**
-_(not yet written)_
+Invent a completely new game together today.
 
 **Why**
-_(not yet written)_
+New experiences create new memories.
 
 ---
 
 ## M-012
 
-**ID**
-M-012
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Activity
@@ -383,23 +350,20 @@ Activity
 Celebrate
 
 **Mission DNA**
-_(not yet written)_
+Let your dog choose today's activity.
 
 **Mission**
-_(not yet written)_
+Offer two different activities and follow your dog's choice.
 
 **Why**
-_(not yet written)_
+Choice creates engagement.
 
 ---
 
 ## M-013
 
-**ID**
-M-013
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Connection
@@ -408,23 +372,20 @@ Connection
 Observe
 
 **Mission DNA**
-_(not yet written)_
+Discover how your dog asks for your attention.
 
 **Mission**
-_(not yet written)_
+Notice the first way your dog tries to connect with you today.
 
 **Why**
-_(not yet written)_
+Dogs communicate more than we often realise.
 
 ---
 
 ## M-014
 
-**ID**
-M-014
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Connection
@@ -433,23 +394,20 @@ Connection
 Practice
 
 **Mission DNA**
-_(not yet written)_
+Share five uninterrupted minutes together.
 
 **Mission**
-_(not yet written)_
+Put away every distraction and spend five minutes giving your dog your full attention.
 
 **Why**
-_(not yet written)_
+Relationships grow through presence.
 
 ---
 
 ## M-015
 
-**ID**
-M-015
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Connection
@@ -458,23 +416,20 @@ Connection
 Explore
 
 **Mission DNA**
-_(not yet written)_
+Experience the world together somewhere calm.
 
 **Mission**
-_(not yet written)_
+Visit a quiet public place and simply sit together watching the world go by.
 
 **Why**
-_(not yet written)_
+Sharing calm moments builds trust.
 
 ---
 
 ## M-016
 
-**ID**
-M-016
-
 **Status**
-Not started
+Draft
 
 **Goal Type**
 Connection
@@ -483,13 +438,15 @@ Connection
 Celebrate
 
 **Mission DNA**
-_(not yet written)_
+Celebrate your relationship.
 
 **Mission**
-_(not yet written)_
+End the day by doing your dog's favourite thing together.
 
 **Why**
-_(not yet written)_
+The best relationships are built through small everyday moments.
+
+ 
 
 ---
 
