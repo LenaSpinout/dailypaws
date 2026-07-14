@@ -9,16 +9,17 @@ import styles from "./page.module.css";
 
 export default function ReflectionPage() {
   const router = useRouter();
-  const { status, reflection } = useMissionSession();
+  const { status, reflection, hydrated } = useMissionSession();
   const allowed = status === "completed" || reflection !== null;
 
   useEffect(() => {
+    if (!hydrated) return;
     if (!allowed) {
       router.replace("/");
     }
-  }, [allowed, router]);
+  }, [hydrated, allowed, router]);
 
-  if (!allowed) {
+  if (!hydrated || !allowed) {
     return null;
   }
 

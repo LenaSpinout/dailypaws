@@ -12,7 +12,8 @@ import styles from "./page.module.css";
 
 export default function MissionPage() {
   const router = useRouter();
-  const { status, startMission, completeMission } = useMissionSession();
+  const { status, startMission, completeMission, hydrated: missionHydrated } =
+    useMissionSession();
   const { hydrated, completed, hasStarted, family } = useOnboarding();
   const mission = getTodaysMission();
 
@@ -23,12 +24,16 @@ export default function MissionPage() {
     }
   }, [hydrated, completed, hasStarted, router]);
 
+  function handleStart() {
+    startMission(mission.id);
+  }
+
   function handleComplete() {
     completeMission();
     router.push("/reflection");
   }
 
-  if (!hydrated || !completed || !family) {
+  if (!hydrated || !missionHydrated || !completed || !family) {
     return null;
   }
 
@@ -51,7 +56,7 @@ export default function MissionPage() {
       )}
 
       {status === "not-started" && (
-        <button type="button" className={styles.primaryButton} onClick={startMission}>
+        <button type="button" className={styles.primaryButton} onClick={handleStart}>
           {strings.mission.start}
         </button>
       )}

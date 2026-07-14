@@ -4,53 +4,153 @@ import {
   createContext,
   useCallback,
   useContext,
+  useEffect,
   useMemo,
   useState,
   type ReactNode,
 } from "react";
 import type { MissionStatus } from "@/domain/types";
 
-interface MissionSessionState {
-  status: MissionStatus;
+const STORAGE_KEY = "dailypaws.mission-session.v1";
+
+export interface MissionRecord {
+  date: string;
+  missionId: string;
   reflection: string | null;
+  insightId: string | null;
 }
 
-interface MissionSessionContextValue extends MissionSessionState {
-  startMission: () => void;
+interface MissionSessionState {
+  status: MissionStatus;
+  missionId: string | null;
+  reflection: string | null;
+  insightId: string | null;
+  history: MissionRecord[];
+}
+
+interface MissionSessionContextValue {
+  hydrated: boolean;
+  status: MissionStatus;
+  reflection: string | null;
+  insightId: string | null;
+  history: MissionRecord[];
+  startMission: (missionId: string) => void;
   completeMission: () => void;
   submitReflection: (optionId: string) => void;
+  recordInsightShown: (insightId: string) => void;
   reset: () => void;
 }
 
 const initialState: MissionSessionState = {
   status: "not-started",
+  missionId: null,
   reflection: null,
+  insightId: null,
+  history: [],
 };
 
 const MissionSessionContext = createContext<MissionSessionContextValue | null>(null);
 
+function loadState(): MissionSessionState | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw) as MissionSessionState;
+  } catch {
+    return null;
+  }
+}
+
+function saveState(state: MissionSessionState) {
+  if (typeof window === "undefined") return;
+  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
 export function MissionSessionProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState<MissionSessionState>(initialState);
+  const [hydrated, setHydrated] = useState(false);
 
-  const startMission = useCallback(() => {
-    setState((prev) => ({ ...prev, status: "in-progress" }));
+  useEffect(() => {
+    // Reading localStorage must happen after mount to avoid an SSR/CSR
+    // hydration mismatch (the server has no access to it).
+    const stored = loadState();
+    if (stored) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setState(stored);
+    }
+    setHydrated(true);
   }, []);
+
+  const persist = useCallback((next: MissionSessionState) => {
+    setState(next);
+    saveState(next);
+  }, []);
+
+  const startMission = useCallback(
+    (missionId: string) => {
+      persist({ ...state, status: "in-progress", missionId });
+    },
+    [state, persist]
+  );
 
   const completeMission = useCallback(() => {
-    setState((prev) => ({ ...prev, status: "completed" }));
-  }, []);
+    persist({ ...state, status: "completed" });
+  }, [state, persist]);
 
-  const submitReflection = useCallback((optionId: string) => {
-    setState((prev) => ({ ...prev, reflection: optionId }));
-  }, []);
+  const submitReflection = useCallback(
+    (optionId: string) => {
+      persist({ ...state, reflection: optionId });
+    },
+    [state, persist]
+  );
+
+  const recordInsightShown = useCallback(
+    (insightId: string) => {
+      persist({ ...state, insightId });
+    },
+    [state, persist]
+  );
 
   const reset = useCallback(() => {
-    setState(initialState);
-  }, []);
+    if (!state.missionId) {
+      persist({ ...initialState, history: state.history });
+      return;
+    }
+    const record: MissionRecord = {
+      date: new Date().toISOString().slice(0, 10),
+      missionId: state.missionId,
+      reflection: state.reflection,
+      insightId: state.insightId,
+    };
+    persist({ ...initialState, history: [record, ...state.history] });
+  }, [state, persist]);
 
   const value = useMemo(
-    () => ({ ...state, startMission, completeMission, submitReflection, reset }),
-    [state, startMission, completeMission, submitReflection, reset]
+    () => ({
+      hydrated,
+      status: state.status,
+      reflection: state.reflection,
+      insightId: state.insightId,
+      history: state.history,
+      startMission,
+      completeMission,
+      submitReflection,
+      recordInsightShown,
+      reset,
+    }),
+    [
+      hydrated,
+      state.status,
+      state.reflection,
+      state.insightId,
+      state.history,
+      startMission,
+      completeMission,
+      submitReflection,
+      recordInsightShown,
+      reset,
+    ]
   );
 
   return (

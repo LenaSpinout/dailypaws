@@ -11,17 +11,23 @@ import styles from "./page.module.css";
 
 export default function InsightPage() {
   const router = useRouter();
-  const { reflection, reset } = useMissionSession();
+  const { reflection, reset, hydrated, insightId, recordInsightShown } =
+    useMissionSession();
   const { family } = useOnboarding();
   const allowed = reflection !== null && family !== null;
 
   useEffect(() => {
+    if (!hydrated) return;
     if (!allowed) {
       router.replace("/");
+      return;
     }
-  }, [allowed, router]);
+    if (insightId !== scriptedInsight.id) {
+      recordInsightShown(scriptedInsight.id);
+    }
+  }, [hydrated, allowed, insightId, recordInsightShown, router]);
 
-  if (!allowed || !family) {
+  if (!hydrated || !allowed || !family) {
     return null;
   }
 
