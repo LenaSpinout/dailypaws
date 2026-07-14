@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { MissionCard } from "@/components/MissionCard";
+import { Timeline } from "@/components/Timeline";
 import { getTodaysMission } from "@/data/mission-templates";
 import { format } from "@/i18n/format";
 import { strings } from "@/i18n/strings";
@@ -43,6 +44,7 @@ export default function HomePage() {
         )}
       </div>
       <MissionCard mission={mission} />
+      <Timeline history={history} />
     </main>
   );
 }

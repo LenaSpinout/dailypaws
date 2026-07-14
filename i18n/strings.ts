@@ -15,6 +15,8 @@ export const strings = {
       completed: "Today's mission is complete",
     },
     goalLabel: "Goal",
+    timelineHeading: "Recent activity",
+    timelineUnknownMission: "A completed mission",
   },
   mission: {
     back: "Back",
