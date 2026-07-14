@@ -77,3 +77,50 @@ Everyday Life, Adventure, Activity or Behaviour.
 
 Plus an optional free-text field, unchanged: "Anything else you'd
 love to share? (optional)"
+
+---
+
+## DD-003 – Reflection is a UX concept, not a Product Model concept
+
+**Status:** 🟢 Approved
+
+Reflection represents the user experience of collecting observations
+after a Mission. It is a UX flow, not a first-class Product Model
+concept, and does not get its own entry in `ProductModel.md`'s Core
+Concepts list.
+
+What Reflection actually produces — observations that feed the Dog,
+Relationship and Insight concepts — is modelled through those
+existing concepts. Reflection itself is the screen and interaction
+that collects them, similar to how Onboarding is a UX flow that
+produces Family/Dog/Goal data without being a Product Model concept
+in its own right.
+
+If Reflection is skipped, no new observations are created and no new
+Insight is generated from that Mission; the next Mission is
+generated using existing knowledge only.
+
+---
+
+## DD-004 – Conversation Types are internal, not user-facing
+
+**Status:** 🟢 Approved
+
+Implements: `ProductModel.md`'s Conversation concept (Discover,
+Reflect, Clarify, Celebrate, Coach types). Same treatment as Insight
+Types — see `docs/releases/v0.1.md` Epic 6.
+
+Conversation Types are an internal concept used by the Conversation
+Engine to select and shape follow-up questions. They are never
+exposed to the user — the family should never see language like
+"Now you have a Clarify Conversation." They should only experience a
+natural question.
+
+Example:
+
+"Yesterday Bellman seemed very curious about the new park."
+
+"Did he seem more confident there than usual?"
+
+This happens to be a Clarify Conversation internally, but that's our
+internal language, not something the user ever sees.
