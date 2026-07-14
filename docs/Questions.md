@@ -34,4 +34,14 @@ Sprint 0 completed.
   Details copy in some non-scored way, and whether `Difficulty` should be
   added at all. Left unresolved rather than assumed.
 
+## From structuring MissionCatalog.md
+
+- **Should Behaviour remain a Goal Type, or should it become a future
+  capability built on top of observations and relationship
+  understanding?** `ProductModel.md` currently lists Behaviour as one
+  of 5 Goal Types, but `docs/MissionCatalog.md`'s Mission Matrix only
+  covers 4 (Everyday Life, Adventure, Activity, Connection), leaving
+  Behaviour out. Not resolved here — this is a product decision to be
+  made separately, not assumed.
+
 Future questions will be added during implementation.
