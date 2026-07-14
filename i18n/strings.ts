@@ -9,6 +9,12 @@ export const strings = {
     heading: "Hello!",
     subheading: "Here's today's mission for you and {dogName}.",
     viewMission: "View mission",
+    missionStatus: {
+      "not-started": "Today's mission hasn't started yet",
+      "in-progress": "You're in the middle of today's mission",
+      completed: "Today's mission is complete",
+    },
+    goalLabel: "Goal",
   },
   mission: {
     back: "Back",
