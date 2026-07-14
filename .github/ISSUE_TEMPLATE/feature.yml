@@ -51,6 +51,15 @@ body:
     validations:
       required: true
   - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: >
+        Other issues this depends on or relates to, if any (e.g. "Depends
+        on #16"). Leave blank if none.
+    validations:
+      required: false
+  - type: textarea
     id: definition-of-done
     attributes:
       label: Definition of Done

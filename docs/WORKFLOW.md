@@ -87,6 +87,7 @@ Every **Feature** issue must contain:
 - Out of Scope
 - Acceptance Criteria
 - Required Documentation
+- Dependencies (other issues this depends on or relates to, if any)
 - Definition of Done
 
 ---
@@ -126,6 +127,19 @@ means:
 - Relevant docs updated (`ProductModel`, `ProductDecisions`, `MVP_PLAN`,
   `roadmap.md`) if the change affects them.
 - Issue closed.
+
+---
+
+# Sprint Review
+
+Issue-level Definition of Done (above) confirms individual work was
+built correctly. It does not confirm the sprint achieved anything.
+
+At the end of a sprint — once its issues are merged and deployed —
+hold a Sprint Review using `docs/SprintReview.md`'s checklist. It asks
+whether the sprint's hypothesis was validated by real product use, not
+whether the code compiled; that question is already settled by this
+section's Definition of Done.
 
 ---
 
