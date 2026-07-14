@@ -83,5 +83,15 @@ Many families believe they already know how their dog reacts.
 This Mission often reveals small details they have never noticed before.
 
 ---
+# Mission Review Checklist
+
+Before approving a Mission, ask:
+
+- Would this happen naturally in everyday life?
+- Is the Mission easy to understand?
+- Will the family learn something?
+- Does it strengthen the relationship?
+- Does it fit the DailyPaws tone?
+- Would I enjoy doing this with Bellman?
 
 (Add more Missions below)
