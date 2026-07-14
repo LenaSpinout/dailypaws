@@ -18,6 +18,7 @@ export interface MissionRecord {
   missionId: string;
   reflection: string | null;
   insightId: string | null;
+  skipped: boolean;
 }
 
 interface MissionSessionState {
@@ -37,6 +38,7 @@ interface MissionSessionContextValue {
   startMission: (missionId: string) => void;
   completeMission: () => void;
   submitReflection: (optionId: string) => void;
+  skipReflection: () => void;
   recordInsightShown: (insightId: string) => void;
   reset: () => void;
 }
@@ -112,19 +114,32 @@ export function MissionSessionProvider({ children }: { children: ReactNode }) {
     [state, persist]
   );
 
+  const archive = useCallback(
+    (overrides: Pick<MissionRecord, "reflection" | "insightId" | "skipped">) => {
+      if (!state.missionId) {
+        persist({ ...initialState, history: state.history });
+        return;
+      }
+      const record: MissionRecord = {
+        date: new Date().toISOString().slice(0, 10),
+        missionId: state.missionId,
+        ...overrides,
+      };
+      persist({ ...initialState, history: [record, ...state.history] });
+    },
+    [state, persist]
+  );
+
   const reset = useCallback(() => {
-    if (!state.missionId) {
-      persist({ ...initialState, history: state.history });
-      return;
-    }
-    const record: MissionRecord = {
-      date: new Date().toISOString().slice(0, 10),
-      missionId: state.missionId,
-      reflection: state.reflection,
-      insightId: state.insightId,
-    };
-    persist({ ...initialState, history: [record, ...state.history] });
-  }, [state, persist]);
+    archive({ reflection: state.reflection, insightId: state.insightId, skipped: false });
+  }, [state, archive]);
+
+  const skipReflection = useCallback(() => {
+    // Skipping is deterministic: no Reflection answer and no Insight are ever
+    // recorded for this Mission's cycle, matching DD-003 exactly, regardless
+    // of any transient in-progress state.
+    archive({ reflection: null, insightId: null, skipped: true });
+  }, [archive]);
 
   const value = useMemo(
     () => ({
@@ -136,6 +151,7 @@ export function MissionSessionProvider({ children }: { children: ReactNode }) {
       startMission,
       completeMission,
       submitReflection,
+      skipReflection,
       recordInsightShown,
       reset,
     }),
@@ -148,6 +164,7 @@ export function MissionSessionProvider({ children }: { children: ReactNode }) {
       startMission,
       completeMission,
       submitReflection,
+      skipReflection,
       recordInsightShown,
       reset,
     ]
