@@ -25,6 +25,7 @@ export const strings = {
       { id: "okay", label: "🙂 It was okay" },
       { id: "tricky", label: "😕 It was tricky" },
     ] satisfies ReflectionOption[],
+    skip: "Not right now",
   },
   insight: {
     heading: "I noticed something",

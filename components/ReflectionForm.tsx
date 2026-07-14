@@ -7,11 +7,16 @@ import styles from "./ReflectionForm.module.css";
 
 export function ReflectionForm() {
   const router = useRouter();
-  const { submitReflection } = useMissionSession();
+  const { submitReflection, skipReflection } = useMissionSession();
 
   function handleSelect(optionId: string) {
     submitReflection(optionId);
     router.push("/insight");
+  }
+
+  function handleSkip() {
+    skipReflection();
+    router.push("/");
   }
 
   return (
@@ -26,6 +31,9 @@ export function ReflectionForm() {
           {option.label}
         </button>
       ))}
+      <button type="button" className={styles.skip} onClick={handleSkip}>
+        {strings.reflection.skip}
+      </button>
     </div>
   );
 }
