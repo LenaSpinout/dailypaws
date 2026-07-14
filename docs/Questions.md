@@ -34,49 +34,4 @@ Sprint 0 completed.
   Details copy in some non-scored way, and whether `Difficulty` should be
   added at all. Left unresolved rather than assumed.
 
-## From reviewing MissionFramework.md
-
-- **MissionFramework.md's "Mission Anatomy" doesn't match
-  `ProductModel.md`'s already-approved Mission fields.** MissionFramework
-  lists a Mission's fields as Goal Type, Mission Type, Mission DNA,
-  User-facing copy, Reflection prompt — and says "Future versions may
-  also include context, duration and energy level." But
-  `ProductModel.md`'s Mission concept already lists Context and
-  Duration as *current* fields ("For each Mission, DailyPaws knows:
-  ... Context ... Duration"), not future ones. Three specific points
-  need reconciling:
-  - Is Context genuinely not yet part of Mission Anatomy (contradicting
-    `ProductModel.md`), or did MissionFramework.md just omit it by
-    oversight?
-  - Same question for Duration — the shipped code already has
-    `durationMinutes` on every Mission Template and displays it in the
-    UI, so treating it as "future" seems out of date already.
-  - Is "Mission DNA" a new field, or a renaming of `ProductModel.md`'s
-    `Success Criteria`? The two aren't obviously the same thing, but
-    nothing states they're different either.
-  - `Difficulty` (an existing `ProductModel.md` Mission field, and
-    already an open question above re: whether it should exist at all)
-    isn't mentioned anywhere in MissionFramework.md, not even as
-    deferred. Is Difficulty being deliberately dropped from the Mission
-    concept, or just not yet addressed by this document?
-- **Does "Reflection prompt" as a per-Mission field imply Reflection
-  becomes Mission-specific?** MissionFramework.md lists "Reflection
-  prompt" as part of every Mission's Anatomy, but the current
-  implementation (and `DesignDecisions.md` DD-003) treats Reflection as
-  one generic, Mission-independent set of three tap options ("went
-  well" / "okay" / "tricky"), not a question that varies per Mission.
-  If new Mission Templates (issue #20) are now expected to each carry
-  their own reflection prompt, that's new scope not currently described
-  in #20's issue body or DD-003. Worth clarifying before #20 is
-  implemented, since it changes what a "Mission Template" needs to
-  contain.
-- **MissionFramework.md's Writing Guidelines don't mention
-  personalisation by dog name or life stage.** Issue #20's own
-  acceptance criteria require Mission copy to substitute the dog's name
-  and use life-stage-appropriate wording, but MissionFramework.md — now
-  positioned as the authoritative Mission design document — doesn't
-  mention either anywhere in its Purpose, Mission Anatomy or Writing
-  Guidelines sections. Not a contradiction, but a gap worth confirming
-  is intentional (i.e. assumed self-evident) rather than accidental.
-
 Future questions will be added during implementation.
