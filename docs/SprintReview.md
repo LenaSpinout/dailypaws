@@ -61,3 +61,21 @@ Already covered elsewhere — do not re-litigate here:
 
 If any of the above failed, the sprint isn't ready for review yet —
 this checklist assumes they already passed.
+
+---
+
+## Sprint 1 Review Checklist
+
+Concrete instance of this checklist for the first Sprint Backlog
+(#16, #17, #32, #18, #19).
+
+**Sprint Goal:** Validate that DailyPaws can learn from everyday
+interactions and make tomorrow feel more personal than today.
+
+- [ ] First Mission feels relevant.
+- [ ] Tomorrow's Mission feels more personal.
+- [ ] Reflection feels worthwhile.
+- [ ] Insight feels believable.
+- [ ] Skipping Reflection feels natural.
+- [ ] Nothing feels like dog training.
+- [ ] The loop makes me want to come back tomorrow.
