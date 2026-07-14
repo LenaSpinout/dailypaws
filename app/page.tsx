@@ -6,12 +6,14 @@ import { MissionCard } from "@/components/MissionCard";
 import { getTodaysMission } from "@/data/mission-templates";
 import { format } from "@/i18n/format";
 import { strings } from "@/i18n/strings";
+import { useMissionSession } from "@/state/mission-session";
 import { useOnboarding } from "@/state/onboarding-session";
 import styles from "./page.module.css";
 
 export default function HomePage() {
   const router = useRouter();
   const { hydrated, completed, hasStarted, family } = useOnboarding();
+  const { hydrated: missionHydrated, history } = useMissionSession();
 
   useEffect(() => {
     if (!hydrated) return;
@@ -20,11 +22,11 @@ export default function HomePage() {
     }
   }, [hydrated, completed, hasStarted, router]);
 
-  if (!hydrated || !completed || !family) {
+  if (!hydrated || !missionHydrated || !completed || !family) {
     return null;
   }
 
-  const mission = getTodaysMission(family.goal?.type);
+  const mission = getTodaysMission(family.goal?.type, history[0]?.missionId ?? null);
 
   return (
     <main className={styles.main}>
