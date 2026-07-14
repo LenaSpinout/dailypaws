@@ -311,3 +311,78 @@ All context should remain optional and only requested when it improves the exper
 - How often should DailyPaws ask for context?
 - Should context influence today's Mission only, or also contribute to the family's long-term profile?
 - Could context eventually be inferred automatically (location, weather, calendar), while always remaining optional and privacy-friendly?
+
+## Idea: Guided Behaviour Support
+
+### Background
+
+Families will sometimes have a specific behaviour they would like to improve.
+
+Examples:
+
+- Barking when the doorbell rings.
+- Pulling on the lead.
+- Jumping on visitors.
+- Chasing bicycles or birds.
+- Difficulty settling indoors.
+
+Many dog training apps immediately suggest exercises or training plans.
+
+DailyPaws should take a different approach.
+
+### Product Principle
+
+**Observe before advising.**
+
+Before suggesting solutions, DailyPaws should first help the family understand the behaviour.
+
+Questions might include:
+
+- When does it happen?
+- Does it happen every time?
+- Who is present?
+- What happened immediately before?
+- How did the dog react afterwards?
+
+The goal is to build understanding before trying to change behaviour.
+
+### Idea
+
+Once enough observations have been gathered, DailyPaws may begin suggesting small experiments or alternative behaviours that fit the individual dog and family.
+
+For example, if the family wants to reduce barking when the doorbell rings, DailyPaws could gradually introduce ideas such as:
+
+- Teaching the dog to go to a mat or bed.
+- Redirecting attention by scattering treats in another room.
+- Creating distance from the front door.
+- Practising with planned visitor scenarios.
+- Reinforcing calm behaviour before opening the door.
+
+The emphasis should always be on gentle, relationship-based guidance rather than correcting unwanted behaviour.
+
+### Product Principles
+
+- Never assume the family wants to "fix" the dog.
+- Understand before recommending.
+- Small experiments rather than rigid training programmes.
+- Multiple approaches may suit different dogs.
+- Explain why a suggestion might help.
+- Continue learning from the family's observations over time.
+
+### Future possibilities
+
+As DailyPaws learns more about the dog and the family's routines, guidance could become increasingly personalised.
+
+Different families may receive different suggestions for the same behaviour based on:
+
+- the dog's personality,
+- previous observations,
+- what has already been tried,
+- the family's goals,
+- the environments where the behaviour occurs.
+
+### Open questions
+
+- How much evidence should DailyPaws gather before offering suggestions?
+- Should families explicitly ask for help, or should DailyPaws sometimes recognise recurring patterns itself?
+- How can suggestions remain supportive without feeling prescriptive or implying there is only one "correct" way to train a dog?
