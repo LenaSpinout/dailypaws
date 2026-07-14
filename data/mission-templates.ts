@@ -177,3 +177,7 @@ export function getTodaysMission(
 
   return pool[nextIndex];
 }
+
+export function getMissionById(id: string): MissionTemplate | undefined {
+  return missionTemplates.find((template) => template.id === id);
+}
