@@ -66,7 +66,11 @@ Large Language Models are used where they provide value:
 - Mission generation (future)
 
 The rest of the system should continue working without an LLM.
+Rule-based before AI
 
+Whenever possible, DailyPaws should use deterministic business rules before introducing AI.
+
+AI should enhance the experience—not replace simple logic that is easier to understand, test and maintain.
 ---
 
 ## Learn Gradually
