@@ -13,7 +13,7 @@ import styles from "./page.module.css";
 export default function HomePage() {
   const router = useRouter();
   const { hydrated, completed, hasStarted, family } = useOnboarding();
-  const { hydrated: missionHydrated, history } = useMissionSession();
+  const { hydrated: missionHydrated, status, history } = useMissionSession();
 
   useEffect(() => {
     if (!hydrated) return;
@@ -34,6 +34,14 @@ export default function HomePage() {
       <p className={styles.subheading}>
         {format(strings.home.subheading, { dogName: family.dog.name })}
       </p>
+      <div className={styles.statusRow}>
+        <span className={styles.statusBadge}>{strings.home.missionStatus[status]}</span>
+        {family.goal && (
+          <span className={styles.goalBadge}>
+            {strings.home.goalLabel}: {family.goal.type}
+          </span>
+        )}
+      </div>
       <MissionCard mission={mission} />
     </main>
   );

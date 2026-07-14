@@ -19,3 +19,20 @@
   margin: 0 0 24px;
   line-height: 1.5;
 }
+
+.statusRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.statusBadge,
+.goalBadge {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  background: var(--color-surface);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
