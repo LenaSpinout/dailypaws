@@ -15,7 +15,7 @@ export default function MissionPage() {
   const { status, startMission, completeMission, hydrated: missionHydrated } =
     useMissionSession();
   const { hydrated, completed, hasStarted, family } = useOnboarding();
-  const mission = getTodaysMission();
+  const mission = getTodaysMission(family?.goal?.type);
 
   useEffect(() => {
     if (!hydrated) return;
