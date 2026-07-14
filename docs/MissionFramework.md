@@ -2,6 +2,14 @@
 
 This document defines what makes a DailyPaws Mission unique. It is the foundation for the Mission Library and should guide both product design and future content creation.
 
+Implements: PD-003 (Missions, not training sessions), PD-029 (Every
+Mission serves a purpose), PD-030 (Missions are generated from Mission
+Templates).
+
+If this document ever conflicts with `ProductDecisions.md` or
+`ProductModel.md`, those documents win — see the Documentation
+Hierarchy in `AI_CONTEXT.md`.
+
 ## Purpose
 
 A DailyPaws Mission is a small shared experience that helps a family understand their dog a little better.

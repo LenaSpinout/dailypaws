@@ -86,12 +86,13 @@ Before working on the project, read:
 3. docs/ProductDecisions.md
 4. docs/ProductModel.md
 5. docs/DesignDecisions.md
-6. docs/Architecture.md
-7. docs/DEVELOPMENT_PLAYBOOK.md
-8. docs/Discovery.md *(optional for implementation, recommended for product work)*
-9. docs/roadmap.md
-10. docs/releases/ (current release plan)
-11. latest file in docs/sessions/
+6. docs/MissionFramework.md
+7. docs/Architecture.md
+8. docs/DEVELOPMENT_PLAYBOOK.md
+9. docs/Discovery.md *(optional for implementation, recommended for product work)*
+10. docs/roadmap.md
+11. docs/releases/ (current release plan)
+12. latest file in docs/sessions/
 
 ## Working rules
 
@@ -116,8 +117,9 @@ If two documents conflict, the following order applies:
 3. ProductModel.md
 4. MVP_PLAN.md
 5. DesignDecisions.md
-6. AI_CONTEXT.md
-7. CLAUDE.md
+6. MissionFramework.md
+7. AI_CONTEXT.md
+8. CLAUDE.md
 
 ## Session workflow
 

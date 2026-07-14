@@ -28,6 +28,8 @@ DailyPaws offers missions instead of training sessions.
 
 A mission should feel like a natural part of everyday life rather than a scheduled exercise.
 
+See `MissionFramework.md` for the full design principles this implies for individual Missions.
+
 ---
 
 ## PD-004 – The whole family grows
@@ -259,6 +261,8 @@ If a Mission does not contribute to any of these, it should not exist.
 DailyPaws stores reusable Mission Templates.
 
 The user receives personalised Missions generated from these templates based on the current Goal, Dog, Relationship and Context.
+
+See `MissionFramework.md` for what a Mission Template contains and how it should be written.
 
 
 ## PD-031 – Insights must be earned
