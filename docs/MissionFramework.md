@@ -4,6 +4,9 @@ This document defines what makes a DailyPaws Mission unique. It is the foundatio
 
 Mission Framework defines how Missions should feel, not how they are implemented.
 
+See `MissionCatalog.md` for the actual Mission Library — the Missions
+themselves, structured against this Framework.
+
 Implements: PD-003 (Missions, not training sessions), PD-029 (Every
 Mission serves a purpose), PD-030 (Missions are generated from Mission
 Templates).
