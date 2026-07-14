@@ -24,7 +24,7 @@ export default function HomePage() {
     return null;
   }
 
-  const mission = getTodaysMission();
+  const mission = getTodaysMission(family.goal?.type);
 
   return (
     <main className={styles.main}>

@@ -36,6 +36,7 @@ export interface Family {
 export interface MissionTemplate {
   id: string;
   type: MissionType;
+  goalType: GoalType;
   title: string;
   description: string;
   durationMinutes: number;
