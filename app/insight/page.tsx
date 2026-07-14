@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { InsightCard } from "@/components/InsightCard";
-import { scriptedInsight } from "@/data/scripted-insights";
+import { getInsightForReflection } from "@/data/scripted-insights";
 import { strings } from "@/i18n/strings";
 import { useMissionSession } from "@/state/mission-session";
 import { useOnboarding } from "@/state/onboarding-session";
@@ -15,6 +15,7 @@ export default function InsightPage() {
     useMissionSession();
   const { family } = useOnboarding();
   const allowed = reflection !== null && family !== null;
+  const insight = getInsightForReflection(reflection);
 
   useEffect(() => {
     if (!hydrated) return;
@@ -22,10 +23,10 @@ export default function InsightPage() {
       router.replace("/");
       return;
     }
-    if (insightId !== scriptedInsight.id) {
-      recordInsightShown(scriptedInsight.id);
+    if (insightId !== insight.id) {
+      recordInsightShown(insight.id);
     }
-  }, [hydrated, allowed, insightId, recordInsightShown, router]);
+  }, [hydrated, allowed, insightId, insight.id, recordInsightShown, router]);
 
   if (!hydrated || !allowed || !family) {
     return null;
@@ -38,7 +39,7 @@ export default function InsightPage() {
 
   return (
     <main className={styles.main}>
-      <InsightCard insight={scriptedInsight} dogName={family.dog.name} />
+      <InsightCard insight={insight} dogName={family.dog.name} />
       <button type="button" className={styles.primaryButton} onClick={handleBackHome}>
         {strings.insight.backHome}
       </button>
