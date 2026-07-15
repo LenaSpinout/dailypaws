@@ -10,5 +10,15 @@ export default function manifest(): MetadataRoute.Manifest {
     display: "standalone",
     background_color: "#faf3ea",
     theme_color: "#faf3ea",
+    icons: [
+      { src: "/pwa-icons/192", sizes: "192x192", type: "image/png" },
+      { src: "/pwa-icons/512", sizes: "512x512", type: "image/png" },
+      {
+        src: "/pwa-icons/512-maskable",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "maskable",
+      },
+    ],
   };
 }
