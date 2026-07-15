@@ -70,3 +70,27 @@ The illustration system should support multiple character variants, for example:
 Illustrations should eventually match the onboarding information whenever possible, while preserving the same illustration style and emotional tone.
 
 This personalization is intentionally out of scope for the Explorer Release.
+
+## Style clarification
+
+The approved Explorer Release style is the middle option from the evaluated style directions:
+
+**Illustrated & Friendly**
+
+It uses:
+
+- clear dark outlines,
+- simplified cartoon-like forms,
+- mostly flat colours,
+- expressive but believable characters,
+- minimal backgrounds,
+- very limited texture.
+
+It should not drift toward:
+
+- realistic editorial illustration,
+- watercolor,
+- detailed children's-book painting,
+- or minimalist line art.
+
+The dog should have visible personality and readable emotion while remaining natural and mature.
