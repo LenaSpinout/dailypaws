@@ -68,7 +68,8 @@ together to create a great DailyPaws Mission:
 - Every Mission should naturally lead into reflection once completed
   — see `DesignDecisions.md` DD-003. This is a quality every Mission
   should have, not a Mission-specific reflection question or new
-  scope.
+  scope. The one approved exception is the shared first Mission every
+  family receives immediately after onboarding — see DD-005.
 
 ---
 

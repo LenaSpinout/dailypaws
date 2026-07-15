@@ -124,3 +124,110 @@ Example:
 
 This happens to be a Clarify Conversation internally, but that's our
 internal language, not something the user ever sees.
+
+---
+
+## DD-005 – Shared First Mission
+
+**Status:** 🟢 Approved
+
+Implements: PD-029 (Every Mission serves a purpose), PD-030 (Missions
+are generated from Mission Templates), PD-032 (Insights are
+suggestions, not facts), PD-033 (Insights are constructive). Approved
+by the Founder and Product Advisor.
+
+Every new family receives the same first Mission immediately after
+onboarding, regardless of the Goal they chose. Its purpose is to
+introduce the DailyPaws experience itself — do one small activity,
+observe without directing the dog, reflect on what happened, and
+receive a humble, evidence-based Insight — before Goal-based
+personalisation begins with the second Mission.
+
+This is the one exception to `MissionFramework.md`'s "every Mission
+naturally leads into reflection, not a Mission-specific reflection
+question" guidance: this specific Mission has its own Reflection
+options and Insight mapping, because its purpose is to teach the loop
+itself rather than to serve a Goal Type. No other Mission gets this
+treatment.
+
+The shared first Mission is not part of `MissionCatalog.md`'s Mission
+Library and must never enter the normal Mission rotation again once
+completed.
+
+### Copy
+
+**Title**
+
+Who notices first?
+
+**Mission DNA**
+
+Discover how closely your dog keeps track of you during a walk.
+
+**Description**
+
+On your next walk, continue as usual for about five minutes.
+
+Then stop somewhere safe.
+
+Stand completely still and stay quiet. Do not call your dog, pull the
+lead or give any signals.
+
+Notice:
+
+- How long does it take before your dog turns and looks at you?
+- What do they do next?
+- Do they come closer, sit down, wait, or continue exploring?
+
+Stay still for up to one minute. Then continue your walk as usual.
+
+There is no right or wrong response. You are simply discovering how
+your dog keeps track of you while exploring the world.
+
+**Why**
+
+Dogs divide their attention differently during walks.
+
+Some regularly check where their person is. Others become deeply
+absorbed in scents, sounds and movement around them.
+
+This small experiment may reveal more about how your dog balances
+independence, curiosity and connection.
+
+### Reflection Options
+
+- Looked back quickly
+- Looked back after a while
+- Came closer or sat down
+- Stayed focused on the surroundings
+- Something else
+
+### Insight Directions
+
+The exact copy may be refined, but must stay close to the observed
+response. All wording follows PD-032/PD-033: observations, not facts;
+no judgement; no implication that one response is better than
+another; no claim that the dog "does not care."
+
+**Looked back quickly**
+
+The dog seemed to notice the change quickly and may be keeping closer
+track of the person than is obvious while moving.
+
+**Looked back after a while**
+
+The dog seemed focused on the surroundings and needed more time to
+notice the pause.
+
+**Came closer or sat down**
+
+When the walk stopped, the dog chose to reconnect with the person.
+
+**Stayed focused on the surroundings**
+
+The surroundings held the dog's attention longer than the pause did
+in this situation.
+
+**Something else**
+
+No clear pattern yet; another context may reveal something different.
