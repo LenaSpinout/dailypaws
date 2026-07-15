@@ -1,41 +1,49 @@
 # I-001 – Home Hero
 
-Base style: see `design/prompts/base-style.md` — this prompt only
-adds the scene-specific detail on top of that base.
-
 Reference: `docs/IllustrationCatalogue.md` — I-001 Home Hero.
 
-## Used On
+Create a flat editorial vector illustration in the approved DailyPaws "Illustrated & Friendly" style.
 
-Home.
+A warm, Scandinavian-inspired illustration with clean white background and lots of whitespace.
 
-## Purpose
+Show an ordinary adult woman kneeling on the grass facing her medium-sized brown Australian Labradoodle.
 
-Welcome the user into the DailyPaws experience.
+The dog sits calmly, looking up at her with relaxed curiosity.
 
-## Emotion to Communicate
+The woman smiles warmly at the dog.
 
-- Togetherness
-- Warmth
-- Curiosity
-- Beginning a shared journey
+Their eyes meet naturally.
 
-## Scene
+A very small heart floats subtly between them to symbolize connection.
 
-The default character (adult woman, warm Scandinavian appearance,
-casual outdoor clothing) and the default dog (medium-sized brown
-doodle-like dog) sharing a calm, ordinary moment together — not
-mid-activity, not posed. This is the first illustration a family
-sees, so it should read as an invitation into the relationship
-itself, not a specific Mission or task.
+Include only a few simple background elements:
 
-Prefer a simple everyday setting (home doorway, garden, path just
-outside home) over anything that specifies a particular Goal Type or
-Mission.
+- one small tree
+- one tiny flower
+- one soft cloud
 
-## Avoid
+Use muted earthy colours.
 
-- Anything that reads as a specific Mission or activity (that's what
-  I-002 through I-005 are for).
-- Achievement, arrival or completion framing — this is a beginning,
-  not a milestone.
+Rounded shapes.
+
+Thin clean outlines.
+
+Premium children's-book quality.
+
+The illustration should feel calm, warm, optimistic and emotionally engaging.
+
+It should communicate:
+
+"We're about to discover something together."
+
+Avoid:
+
+- realistic rendering
+- gradients
+- shadows
+- cluttered backgrounds
+- exaggerated cartoon expressions
+- training equipment
+- leashes
+- text
+- UI elements
