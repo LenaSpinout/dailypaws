@@ -17,6 +17,7 @@ export const strings = {
     goalLabel: "Goal",
     timelineHeading: "Recent activity",
     timelineUnknownMission: "A completed mission",
+    profileLink: "Profile",
   },
   mission: {
     back: "Back",
@@ -39,6 +40,17 @@ export const strings = {
     heading: "I noticed something",
     confirmPrompt: "Does this sound like {dogName}?",
     backHome: "Back to Home",
+  },
+  profile: {
+    heading: "Profile",
+    back: "Back",
+    dogSection: "Dog",
+    dogName: "Name",
+    lifeStage: "Life stage",
+    lifeStageUnknown: "Not shared yet",
+    peopleSection: "People",
+    goalSection: "Goal",
+    goalUnknown: "Not set yet",
   },
   welcome: {
     title: "Welcome",
