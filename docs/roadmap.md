@@ -37,7 +37,24 @@ Epics.
 
 See `docs/sprint_0_review.md` for details.
 
-## Sprint 1 – MVP 🟡 In Progress
+## Sprint 1 – MVP ✅ Complete
 
-Building the first usable vertical slice. See `docs/MVP_PLAN.md` and
+Built the first usable vertical slice: onboarding → mission →
+reflection → insight. See `docs/MVP_PLAN.md` and
 `docs/releases/v0.1.md`.
+
+## Sprint 2 – First Personalised Learning Loop ✅ Complete
+
+Data persistence, Goal-based Mission selection, Skip Reflection and
+Reflection-aware Insights. See `docs/ProjectStatus.md`.
+
+## Sprint 3 – A Week Together ✅ Complete
+
+Mission Library v0.1, Home Status, Navigation + Profile, Timeline,
+Empty & Error States and PWA Install. See `docs/sprints/sprint3.md`
+and `docs/sprint_3_review.md` — the review's own conclusion is that
+Sprint 3's engagement hypothesis is not yet validated by real family
+testing, only implemented and technically verified.
+
+See `docs/ProjectStatus.md` for what has happened since Sprint 3 and
+what hasn't yet been assigned to a sprint.
