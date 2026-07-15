@@ -2,6 +2,10 @@
 
 Status: Approved for Explorer Release
 
+("Explorer Release" is not a separate product release — it's the
+external family-testing phase of `docs/releases/v0.1.md` – First
+Meaningful Experience.)
+
 ## Selected Style
 
 After evaluating several illustration directions, the project selected:

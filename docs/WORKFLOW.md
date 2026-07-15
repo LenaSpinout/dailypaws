@@ -62,10 +62,15 @@ during triage.
 
 # Milestones
 
-- **Sprint 1 – MVP**
-- **Sprint 2 – AI**
-- **Sprint 3 – Personalisation**
+GitHub Milestones represent Releases, not Sprints. Sprint-level
+tracking lives in `docs/ProjectStatus.md` and `docs/sprints/`, not in
+Milestone names.
+
+- **v0.1 – First Meaningful Experience**
 - **Future** — deliberately deferred work
+
+Further release milestones (`v0.2`, `v0.3`, `v1.0`, ...) are created
+as those releases are scoped, matching `docs/releases/`.
 
 Created once via `.github/workflows/bootstrap-milestones.yml`
 (`workflow_dispatch`, safe to re-run — it skips milestones that already

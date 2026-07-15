@@ -717,6 +717,10 @@ The visual language should remain consistent so that every illustration is immed
 
 ### Explorer Release
 
+("Explorer Release" is not a separate product release — it's the
+external family-testing phase of `docs/releases/v0.1.md` – First
+Meaningful Experience.)
+
 For the Explorer Release, a single default character is intentionally used throughout the app to:
 
 - Maintain visual consistency.
