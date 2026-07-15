@@ -250,6 +250,10 @@ Support unexpected application errors.
 
 # Explorer Release Decisions
 
+("Explorer Release" is not a separate product release — it's the
+external family-testing phase of `docs/releases/v0.1.md` – First
+Meaningful Experience.)
+
 The Explorer Release intentionally uses:
 
 - one illustration style
