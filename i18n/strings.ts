@@ -52,6 +52,12 @@ export const strings = {
     goalSection: "Goal",
     goalUnknown: "Not set yet",
   },
+  error: {
+    heading: "Something didn't load quite right",
+    body: "It seems something went a little sideways. Let's try that again.",
+    retry: "Try again",
+    backHome: "Back to Home",
+  },
   welcome: {
     title: "Welcome",
     subtitle: "Every great relationship starts somewhere.",

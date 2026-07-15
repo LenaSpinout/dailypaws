@@ -63,12 +63,28 @@ interface OnboardingContextValue {
 
 const OnboardingContext = createContext<OnboardingContextValue | null>(null);
 
+function isValidOnboardingState(value: unknown): value is OnboardingState {
+  if (!value || typeof value !== "object") return false;
+  const candidate = value as Partial<OnboardingState>;
+  return (
+    typeof candidate.step === "number" &&
+    candidate.step >= 1 &&
+    candidate.step <= 5 &&
+    typeof candidate.completed === "boolean" &&
+    typeof candidate.answers === "object" &&
+    candidate.answers !== null
+  );
+}
+
 function loadState(): OnboardingState | null {
   if (typeof window === "undefined") return null;
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
-    return JSON.parse(raw) as OnboardingState;
+    const parsed = JSON.parse(raw);
+    // A corrupted or unexpectedly-shaped record should never surface as a
+    // blank/broken screen — treat it the same as no persisted data at all.
+    return isValidOnboardingState(parsed) ? parsed : null;
   } catch {
     return null;
   }
@@ -76,7 +92,12 @@ function loadState(): OnboardingState | null {
 
 function saveState(state: OnboardingState) {
   if (typeof window === "undefined") return;
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  } catch {
+    // Storage may be unavailable (private browsing, quota exceeded, disabled).
+    // The app keeps working in-memory for this session; nothing to surface.
+  }
 }
 
 function buildFamily(answers: OnboardingAnswers): Family {
