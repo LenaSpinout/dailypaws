@@ -669,3 +669,56 @@ Suggestions should always build on observations the family has already made toge
 DailyPaws should never feel like it is diagnosing the dog.
 
 It should feel like a thoughtful companion helping the family understand their own dog.
+
+---
+
+## Idea: Personalized Illustrations
+
+### Background
+
+Illustrations are an important part of the DailyPaws experience. They should help users feel that the app is warm, personal and relatable.
+
+For the Explorer Release, all illustrations use a single default character to keep the illustration library small and the implementation simple.
+
+In the future, illustrations should become more personal without changing the product experience.
+
+### Idea
+
+DailyPaws should gradually personalize illustrations based on the information already known about the family.
+
+Examples include:
+
+- Woman + dog
+- Man + dog
+- Adult couple + dog
+- Parent and child + dog
+- Family + dog
+
+The illustration should support the user's own situation while keeping the same visual style, composition and emotional tone.
+
+### Guiding Principles
+
+Illustrations should reinforce identification rather than represent exact appearances.
+
+The goal is not to create portraits of the user, but to help more families feel that DailyPaws is "for people like us."
+
+Personalization should always be subtle and optional.
+
+### Future Possibilities
+
+As DailyPaws learns more about the family, illustrations could also adapt to:
+
+- Dog life stage (puppy, adult, senior)
+- Seasons
+- Environment (city, forest, coast)
+- Activities the family frequently enjoys together
+
+The visual language should remain consistent so that every illustration is immediately recognizable as DailyPaws.
+
+### Explorer Release
+
+For the Explorer Release, a single default character is intentionally used throughout the app to:
+
+- Maintain visual consistency.
+- Keep the illustration library manageable.
+- Validate the illustration concept before investing in personalization.
