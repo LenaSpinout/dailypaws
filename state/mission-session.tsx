@@ -53,12 +53,27 @@ const initialState: MissionSessionState = {
 
 const MissionSessionContext = createContext<MissionSessionContextValue | null>(null);
 
+const validStatuses: MissionStatus[] = ["not-started", "in-progress", "completed"];
+
+function isValidMissionSessionState(value: unknown): value is MissionSessionState {
+  if (!value || typeof value !== "object") return false;
+  const candidate = value as Partial<MissionSessionState>;
+  return (
+    typeof candidate.status === "string" &&
+    validStatuses.includes(candidate.status as MissionStatus) &&
+    Array.isArray(candidate.history)
+  );
+}
+
 function loadState(): MissionSessionState | null {
   if (typeof window === "undefined") return null;
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
-    return JSON.parse(raw) as MissionSessionState;
+    const parsed = JSON.parse(raw);
+    // A corrupted or unexpectedly-shaped record should never surface as a
+    // blank/broken screen — treat it the same as no persisted data at all.
+    return isValidMissionSessionState(parsed) ? parsed : null;
   } catch {
     return null;
   }
@@ -66,7 +81,12 @@ function loadState(): MissionSessionState | null {
 
 function saveState(state: MissionSessionState) {
   if (typeof window === "undefined") return;
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  } catch {
+    // Storage may be unavailable (private browsing, quota exceeded, disabled).
+    // The app keeps working in-memory for this session; nothing to surface.
+  }
 }
 
 export function MissionSessionProvider({ children }: { children: ReactNode }) {
