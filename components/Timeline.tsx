@@ -1,4 +1,5 @@
 import type { MissionRecord } from "@/state/mission-session";
+import { firstMission, getFirstMissionInsight } from "@/data/first-mission";
 import { getMissionById } from "@/data/mission-templates";
 import { getInsightForReflection } from "@/data/scripted-insights";
 import { strings } from "@/i18n/strings";
@@ -21,8 +22,13 @@ export function Timeline({ history }: { history: MissionRecord[] }) {
           const mission = getMissionById(record.missionId);
           // Per DD-003, a skipped Reflection never produces an Insight —
           // no Insight line is shown for those entries, calmly and without
-          // calling attention to the skip itself.
-          const insight = record.skipped ? null : getInsightForReflection(record.reflection);
+          // calling attention to the skip itself. The shared first Mission
+          // (DD-005) uses its own Insight mapping, not the generic one.
+          const insight = record.skipped
+            ? null
+            : record.missionId === firstMission.id
+              ? getFirstMissionInsight(record.reflection)
+              : getInsightForReflection(record.reflection);
 
           return (
             <li key={`${record.date}-${record.missionId}-${index}`} className={styles.item}>

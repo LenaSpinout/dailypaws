@@ -1,13 +1,14 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { firstMission } from "@/data/first-mission";
 import { strings } from "@/i18n/strings";
 import { useMissionSession } from "@/state/mission-session";
 import styles from "./ReflectionForm.module.css";
 
 export function ReflectionForm() {
   const router = useRouter();
-  const { submitReflection, skipReflection } = useMissionSession();
+  const { missionId, submitReflection, skipReflection } = useMissionSession();
 
   function handleSelect(optionId: string) {
     submitReflection(optionId);
@@ -19,9 +20,15 @@ export function ReflectionForm() {
     router.push("/");
   }
 
+  // DesignDecisions.md DD-005's one approved exception: the shared first
+  // Mission has its own Reflection options. Every other Mission uses the
+  // generic three.
+  const options =
+    missionId === firstMission.id ? strings.reflection.firstMissionOptions : strings.reflection.options;
+
   return (
     <div className={styles.options}>
-      {strings.reflection.options.map((option) => (
+      {options.map((option) => (
         <button
           key={option.id}
           type="button"
