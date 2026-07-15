@@ -32,6 +32,7 @@ interface MissionSessionState {
 interface MissionSessionContextValue {
   hydrated: boolean;
   status: MissionStatus;
+  missionId: string | null;
   reflection: string | null;
   insightId: string | null;
   history: MissionRecord[];
@@ -165,6 +166,7 @@ export function MissionSessionProvider({ children }: { children: ReactNode }) {
     () => ({
       hydrated,
       status: state.status,
+      missionId: state.missionId,
       reflection: state.reflection,
       insightId: state.insightId,
       history: state.history,
@@ -178,6 +180,7 @@ export function MissionSessionProvider({ children }: { children: ReactNode }) {
     [
       hydrated,
       state.status,
+      state.missionId,
       state.reflection,
       state.insightId,
       state.history,

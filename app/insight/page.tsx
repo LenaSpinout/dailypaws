@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { InsightCard } from "@/components/InsightCard";
+import { firstMission, getFirstMissionInsight } from "@/data/first-mission";
 import { getInsightForReflection } from "@/data/scripted-insights";
 import { strings } from "@/i18n/strings";
 import { useMissionSession } from "@/state/mission-session";
@@ -11,11 +12,17 @@ import styles from "./page.module.css";
 
 export default function InsightPage() {
   const router = useRouter();
-  const { reflection, reset, hydrated, insightId, recordInsightShown } =
+  const { missionId, reflection, reset, hydrated, insightId, recordInsightShown } =
     useMissionSession();
   const { family } = useOnboarding();
   const allowed = reflection !== null && family !== null;
-  const insight = getInsightForReflection(reflection);
+  // DesignDecisions.md DD-005's one approved exception: the shared first
+  // Mission has its own Insight mapping. Every other Mission uses the
+  // generic scripted Insights.
+  const insight =
+    missionId === firstMission.id
+      ? getFirstMissionInsight(reflection)
+      : getInsightForReflection(reflection);
 
   useEffect(() => {
     if (!hydrated) return;

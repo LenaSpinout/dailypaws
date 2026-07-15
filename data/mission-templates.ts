@@ -1,4 +1,5 @@
 import type { GoalType, MissionTemplate } from "@/domain/types";
+import { firstMission } from "./first-mission";
 
 // Sourced verbatim from docs/MissionCatalog.md (Mission Library v0.1).
 // Mission DNA becomes the short title; the Mission field becomes the
@@ -164,6 +165,14 @@ export function getTodaysMission(
   goalType?: GoalType,
   lastMissionId?: string | null
 ): MissionTemplate {
+  // No Mission has ever been completed or skipped yet: every family's very
+  // first Mission is the same shared introduction (DesignDecisions.md
+  // DD-005), regardless of Goal Type. It never enters this rotation pool,
+  // and once it's archived into history, lastMissionId is never null again.
+  if (lastMissionId == null) {
+    return firstMission;
+  }
+
   const matching = missionTemplates.filter((template) => template.goalType === goalType);
   // Fall back to rotating the full library if no template matches the
   // Goal Type yet (e.g. Behaviour, not currently in the Mission Catalog).
@@ -179,5 +188,6 @@ export function getTodaysMission(
 }
 
 export function getMissionById(id: string): MissionTemplate | undefined {
+  if (id === firstMission.id) return firstMission;
   return missionTemplates.find((template) => template.id === id);
 }
