@@ -521,3 +521,151 @@ DailyPaws could eventually use these responses to:
 ### Product Principle
 
 Insights should invite reflection, not ask for ratings.
+
+# Idea: Living Dog Profile
+
+## Background
+
+Over time, DailyPaws should become more than a collection of Missions and Insights.
+
+It should gradually build a living picture of the dog and the relationship between the dog and the family.
+
+The goal is not to label the dog or perform personality tests.
+
+The goal is to reflect back the observations the family has already made together.
+
+## Idea
+
+Create a "Living Dog Profile" that grows over time.
+
+Instead of statistics or scores, DailyPaws presents observations such as:
+
+### Bellman seems to enjoy...
+
+- Forest walks
+- Travelling by car
+- Meeting new people
+
+### Bellman seems less comfortable with...
+
+- Doorbells
+- Busy environments
+- Large unfamiliar dogs
+
+### Bellman often...
+
+- Checks in during walks
+- Chooses to rest near you
+- Explores before reconnecting
+
+All observations should remain humble and evidence-based.
+
+Use wording such as:
+
+- "seems to..."
+- "often..."
+- "may enjoy..."
+- "you've discovered..."
+
+Never present assumptions as facts.
+
+The profile should evolve naturally as new Missions and Insights are completed.
+
+---
+
+# Idea: Relationship Story
+
+## Background
+
+Most apps show progress as numbers, streaks or achievements.
+
+DailyPaws should instead tell the story of the relationship.
+
+## Idea
+
+The Timeline could gradually become a shared story.
+
+Instead of only showing:
+
+Mission
+Reflection
+Insight
+
+It could occasionally surface moments such as:
+
+"Today Bellman surprised you."
+
+"You discovered that Bellman stayed close when you stopped walking."
+
+"Today Bellman calmly explored a completely new place."
+
+The goal is to create something families enjoy looking back on months later.
+
+The Timeline should become a memory book rather than an activity log.
+
+---
+
+# Idea: Illustrated DailyPaws
+
+## Background
+
+The current MVP communicates functionality well, but lacks emotional warmth.
+
+Illustrations can help establish DailyPaws' personality without increasing complexity.
+
+## Idea
+
+Introduce a consistent illustration style throughout the product.
+
+Illustrations should feel:
+
+- warm
+- calm
+- playful
+- timeless
+- Scandinavian
+- suitable for both adults and children
+
+Illustrations should support the experience rather than decorate it.
+
+Suggested priorities:
+
+1. Home
+2. Mission cards (by Mission Type rather than individual Mission)
+3. Insights
+4. Empty states
+5. Onboarding
+
+Illustrations should reinforce the feeling that DailyPaws is about shared moments, not dog training.
+
+---
+
+# Idea: Discovery before Advice
+
+## Background
+
+Most dog apps quickly tell owners what to do.
+
+DailyPaws should first help families discover who their own dog is.
+
+Advice becomes much more meaningful when it is grounded in shared experiences.
+
+## Product Principle
+
+Observe first.
+Understand together.
+Guide later.
+
+## Future vision
+
+As the Living Dog Profile becomes richer, DailyPaws could eventually suggest ideas such as:
+
+"You've discovered that Bellman often becomes excited when visitors arrive."
+
+Would you like to explore some playful ways of helping Bellman stay calmer?
+
+Suggestions should always build on observations the family has already made together.
+
+DailyPaws should never feel like it is diagnosing the dog.
+
+It should feel like a thoughtful companion helping the family understand their own dog.
