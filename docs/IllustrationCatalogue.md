@@ -59,7 +59,7 @@ design/approved/
 
 | ID | Name | Used On | Status |
 |----|------|---------|--------|
-| I-001 | Home Hero | Home | Planned |
+| I-001 | Home Hero | Home | Prompt Ready |
 | I-002 | Observe | Mission | Planned |
 | I-003 | Practice | Mission | Planned |
 | I-004 | Explore | Mission | Planned |
@@ -134,6 +134,12 @@ Support Practice Missions.
 - Encouragement
 - Confidence
 
+**Prompt**
+
+See:
+
+design/prompts/I-003-practice.md
+
 ---
 
 # I-004 Explore
@@ -147,6 +153,12 @@ Support Explore Missions.
 - Discovery
 - Adventure
 - Curiosity
+
+**Prompt**
+
+See:
+
+design/prompts/I-004-explore.md
 
 ---
 
@@ -162,6 +174,12 @@ Support Celebrate Missions.
 - Joy
 - Connection
 
+**Prompt**
+
+See:
+
+design/prompts/I-005-celebrate.md
+
 ---
 
 # I-006 Relationship Insight
@@ -175,6 +193,12 @@ Support relationship insights.
 - Trust
 - Reflection
 - Togetherness
+
+**Prompt**
+
+See:
+
+design/prompts/I-006-relationship-insight.md
 
 ---
 

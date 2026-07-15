@@ -162,16 +162,18 @@ Illustrations support the UI rather than dominate it.
 
 Preferred style:
 
-- Hand-drawn
-- Soft vector illustration
-- Minimal detail
-- Thin outlines
-- Rounded shapes
-- Gentle shadows
-- Clean white background
+- Clear dark outlines
+- Simplified rounded forms
+- Mostly flat colour fills
+- Very limited texture
+- Minimal or subtle shading
+- Clean white or warm off-white background
 - Plenty of whitespace
 
 Illustrations should feel modern without becoming trendy.
+
+The approved Style Board defines the visual appearance and takes
+precedence over descriptive wording in this guide.
 
 ---
 
