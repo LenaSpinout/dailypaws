@@ -12,6 +12,11 @@ The goal is quality over quantity.
 
 Every Mission should feel meaningful, natural and true to the DailyPaws philosophy.
 
+This Catalog does not include the shared first Mission every family
+receives immediately after onboarding — that Mission is fixed, never
+enters this rotation, and is documented separately in
+`DesignDecisions.md` DD-005.
+
 ---
 
 # Mission Status
