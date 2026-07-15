@@ -464,3 +464,60 @@ Progression might be influenced by:
 - When should DailyPaws decide that a Mission has become "too familiar"?
 - Should progression happen automatically or be chosen by the family?
 - How can progression maintain curiosity without making families feel they are being "tested"?
+
+## Idea: Insight Confirmation
+
+### Background
+
+Insights should feel like the beginning of a conversation, not the end of one.
+
+Instead of simply presenting an Insight and returning to Home, DailyPaws should invite the family to respond. This creates a more engaging experience while also giving DailyPaws valuable feedback about whether its observations feel accurate.
+
+### Idea
+
+Every Insight should end with a simple confirmation question.
+
+The wording should depend on what the Insight is about.
+
+Examples:
+
+**Relationship Insight**
+
+"You and Bellman are building a strong relationship."
+
+→ Does this feel true for you and Bellman?
+
+**Dog Insight**
+
+"Bellman seems to enjoy exploring new places."
+
+→ Does this sound like Bellman?
+
+**Owner Insight**
+
+"You're becoming more attentive to the small moments."
+
+→ Does this sound like you?
+
+### Response options
+
+Keep the interaction lightweight.
+
+- Yes
+- Maybe
+- Not really
+
+The purpose is not to rate the Insight, but to confirm or reject whether it feels accurate.
+
+### Future possibilities
+
+DailyPaws could eventually use these responses to:
+
+- improve future Insight selection,
+- build confidence over time,
+- avoid repeating inaccurate Insights,
+- better understand each family's relationship.
+
+### Product Principle
+
+Insights should invite reflection, not ask for ratings.
