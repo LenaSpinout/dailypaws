@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { MissionCard } from "@/components/MissionCard";
 import { Timeline } from "@/components/Timeline";
@@ -31,7 +32,12 @@ export default function HomePage() {
 
   return (
     <main className={styles.main}>
-      <p className={styles.heading}>{strings.home.heading}</p>
+      <div className={styles.topRow}>
+        <p className={styles.heading}>{strings.home.heading}</p>
+        <Link href="/profile" className={styles.profileLink}>
+          {strings.home.profileLink}
+        </Link>
+      </div>
       <p className={styles.subheading}>
         {format(strings.home.subheading, { dogName: family.dog.name })}
       </p>
