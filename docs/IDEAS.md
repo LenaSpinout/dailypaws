@@ -726,3 +726,42 @@ For the Explorer Release, a single default character is intentionally used throu
 - Maintain visual consistency.
 - Keep the illustration library manageable.
 - Validate the illustration concept before investing in personalization.
+
+## Idea: Replace Explorer Illustrations with Target Visual Style
+
+### Background
+
+For the Explorer Release, DailyPaws uses a temporary illustration style that can be generated consistently with the current tooling.
+
+The product’s approved long-term visual direction is documented in:
+
+- `docs/IllustrationGuide.md`
+- `design/approved/style-v1.md`
+- `design/approved/DailyPaws-StyleBoard-v1.png`
+
+The temporary assets allow the product experience to be tested without delaying external family testing.
+
+### Idea
+
+After the Explorer test, review the illustrations and replace them with a new library that matches the approved DailyPaws Style Board more closely.
+
+This may involve:
+
+- using another image-generation tool with stronger style-reference support,
+- working with a professional illustrator,
+- redrawing or vectorising selected AI-generated compositions,
+- creating reusable character sheets and consistent poses.
+
+### Product Principle
+
+The temporary visual compromise must not silently become the permanent visual identity.
+
+Explorer testing should validate whether illustrations add warmth and engagement. It should not be treated as final validation of the temporary illustration style.
+
+### Future Deliverables
+
+- Revised illustration asset library
+- Consistent woman, man and family variants
+- Character sheet for people and dogs
+- Updated production assets
+- Replacement of temporary Explorer illustrations
