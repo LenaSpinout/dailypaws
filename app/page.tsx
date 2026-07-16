@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { Illustration } from "@/components/Illustration";
 import { MissionCard } from "@/components/MissionCard";
 import { Timeline } from "@/components/Timeline";
 import { getTodaysMission } from "@/data/mission-templates";
@@ -37,6 +38,9 @@ export default function HomePage() {
         <Link href="/profile" className={styles.profileLink}>
           {strings.home.profileLink}
         </Link>
+      </div>
+      <div className={styles.hero}>
+        <Illustration id="homeHero" priority />
       </div>
       <p className={styles.subheading}>
         {format(strings.home.subheading, { dogName: family.dog.name })}

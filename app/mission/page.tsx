@@ -3,7 +3,9 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { Illustration } from "@/components/Illustration";
 import { getTodaysMission } from "@/data/mission-templates";
+import { missionTypeIllustrations } from "@/data/illustrations";
 import { format } from "@/i18n/format";
 import { strings } from "@/i18n/strings";
 import { useMissionSession } from "@/state/mission-session";
@@ -42,12 +44,19 @@ export default function MissionPage() {
     return null;
   }
 
+  const illustrationId = missionTypeIllustrations[mission.type];
+
   return (
     <main className={styles.main}>
       <Link href="/" className={styles.back}>
         {strings.mission.back}
       </Link>
       <span className={styles.type}>{mission.type}</span>
+      {illustrationId && (
+        <div className={styles.hero}>
+          <Illustration id={illustrationId} priority />
+        </div>
+      )}
       <h1 className={styles.title}>{mission.title}</h1>
       <p className={styles.description}>{mission.description}</p>
       <p className={styles.meta}>
