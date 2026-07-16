@@ -286,6 +286,24 @@ The Explorer Release intentionally uses:
 
 Illustration personalization is intentionally out of scope.
 
+## Explorer Illustration Style v0
+
+The illustrations actually generated and shipped for the Explorer
+Release use **Explorer Illustration Style v0** — a temporary
+implementation compromise, not the approved long-term style. See
+`design/approved/style-v1.md`'s "Explorer Release implementation
+decision."
+
+**Illustrated & Friendly v1** (`design/approved/style-v1.md`,
+`design/approved/DailyPaws-StyleBoard-v1.png`) remains the approved
+future target style. Explorer Illustration Style v0 will be reviewed
+and potentially replaced after Explorer testing — see the "Replace
+Explorer Illustrations with Target Visual Style" idea in
+`docs/IDEAS.md`.
+
+This does not change the illustration list or any prompt in this
+Catalog.
+
 ---
 
 # Future Library
