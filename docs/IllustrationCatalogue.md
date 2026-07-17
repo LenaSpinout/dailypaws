@@ -70,7 +70,7 @@ design/approved/
 | I-009 | Timeline Empty | Timeline | Planned |
 | I-010 | Generic Empty State | Empty State | Planned |
 | I-011 | Error State | Error | Planned |
-| I-012 | Welcome Dog | Welcome | Planned |
+| I-012 | Welcome Dog | Onboarding / Welcome | Implemented |
 
 ---
 
@@ -281,7 +281,7 @@ A standalone dog character illustration to support the Welcome screen.
 
 **Used On**
 
-- Welcome
+- Onboarding / Welcome
 
 **Emotion**
 

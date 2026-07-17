@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import { Illustration } from "@/components/Illustration";
 import { strings } from "@/i18n/strings";
 import { useOnboarding } from "@/state/onboarding-session";
 import styles from "./page.module.css";
@@ -30,6 +31,9 @@ export default function WelcomePage() {
         <p className={styles.subtitle}>{strings.welcome.subtitle}</p>
         <p className={styles.body}>{strings.welcome.bodyLine1}</p>
         <p className={styles.body}>{strings.welcome.bodyLine2}</p>
+      </div>
+      <div className={styles.hero}>
+        <Illustration id="welcomeDog" priority sizes="200px" />
       </div>
       <button
         type="button"

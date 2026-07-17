@@ -1,6 +1,6 @@
 import type { MissionType } from "@/domain/types";
 
-export type IllustrationId = "homeHero" | "observe";
+export type IllustrationId = "homeHero" | "observe" | "welcomeDog";
 
 export interface IllustrationAsset {
   src: string;
@@ -26,6 +26,12 @@ export const illustrations: Record<IllustrationId, IllustrationAsset> = {
     alt: "An illustration of a person calmly watching their dog explore and sniff around outdoors.",
     width: 1536,
     height: 1024,
+  },
+  welcomeDog: {
+    src: "/illustrations/welcome-dog.png",
+    alt: "An illustration of a friendly dog.",
+    width: 1024,
+    height: 1536,
   },
 };
 
