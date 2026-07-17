@@ -93,6 +93,16 @@ export default function OnboardingPage() {
           question={strings.onboarding.dogName.question}
           context={strings.onboarding.dogName.context}
           onBack={() => router.push("/welcome")}
+          primaryAction={
+            <button
+              type="button"
+              className={styles.primaryButton}
+              disabled={!dogNameInput.trim()}
+              onClick={handleDogNameSubmit}
+            >
+              {strings.onboarding.dogName.continueButton}
+            </button>
+          }
         >
           <input
             type="text"
@@ -102,14 +112,6 @@ export default function OnboardingPage() {
             onChange={(event) => setDogNameInput(event.target.value)}
             autoFocus
           />
-          <button
-            type="button"
-            className={styles.primaryButton}
-            disabled={!dogNameInput.trim()}
-            onClick={handleDogNameSubmit}
-          >
-            {strings.onboarding.dogName.continueButton}
-          </button>
         </OnboardingStepShell>
       )}
 
@@ -142,6 +144,16 @@ export default function OnboardingPage() {
           question={strings.onboarding.personName.question}
           context={strings.onboarding.personName.context}
           onBack={onboarding.goBack}
+          primaryAction={
+            <button
+              type="button"
+              className={styles.primaryButton}
+              disabled={!personNameInput.trim()}
+              onClick={handlePersonNameSubmit}
+            >
+              {strings.onboarding.personName.continueButton}
+            </button>
+          }
         >
           <input
             type="text"
@@ -151,14 +163,6 @@ export default function OnboardingPage() {
             onChange={(event) => setPersonNameInput(event.target.value)}
             autoFocus
           />
-          <button
-            type="button"
-            className={styles.primaryButton}
-            disabled={!personNameInput.trim()}
-            onClick={handlePersonNameSubmit}
-          >
-            {strings.onboarding.personName.continueButton}
-          </button>
         </OnboardingStepShell>
       )}
 
@@ -170,6 +174,23 @@ export default function OnboardingPage() {
           context={format(strings.onboarding.familyMembers.context, { dogName })}
           onBack={onboarding.goBack}
           onSkip={() => handleFamilyMembersSubmit([])}
+          primaryAction={
+            <button
+              type="button"
+              className={styles.primaryButton}
+              disabled={!familyMembersInput.trim()}
+              onClick={() =>
+                handleFamilyMembersSubmit(
+                  familyMembersInput
+                    .split(",")
+                    .map((name) => name.trim())
+                    .filter(Boolean)
+                )
+              }
+            >
+              {strings.onboarding.familyMembers.continueButton}
+            </button>
+          }
         >
           <input
             type="text"
@@ -179,21 +200,6 @@ export default function OnboardingPage() {
             onChange={(event) => setFamilyMembersInput(event.target.value)}
             autoFocus
           />
-          <button
-            type="button"
-            className={styles.primaryButton}
-            disabled={!familyMembersInput.trim()}
-            onClick={() =>
-              handleFamilyMembersSubmit(
-                familyMembersInput
-                  .split(",")
-                  .map((name) => name.trim())
-                  .filter(Boolean)
-              )
-            }
-          >
-            {strings.onboarding.familyMembers.continueButton}
-          </button>
         </OnboardingStepShell>
       )}
 
@@ -204,6 +210,16 @@ export default function OnboardingPage() {
           question={format(strings.onboarding.goal.question, { dogName })}
           context={format(strings.onboarding.goal.context, { dogName })}
           onBack={onboarding.goBack}
+          primaryAction={
+            <button
+              type="button"
+              className={styles.primaryButton}
+              disabled={!selectedGoalType}
+              onClick={handleGoalSubmit}
+            >
+              {strings.onboarding.goal.continueButton}
+            </button>
+          }
         >
           {dreamCards.map((card) => (
             <button
@@ -225,14 +241,6 @@ export default function OnboardingPage() {
             value={goalNoteInput}
             onChange={(event) => setGoalNoteInput(event.target.value)}
           />
-          <button
-            type="button"
-            className={styles.primaryButton}
-            disabled={!selectedGoalType}
-            onClick={handleGoalSubmit}
-          >
-            {strings.onboarding.goal.continueButton}
-          </button>
         </OnboardingStepShell>
       )}
     </main>
