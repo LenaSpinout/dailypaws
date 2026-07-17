@@ -34,6 +34,12 @@
   margin: 0;
 }
 
+.hero {
+  align-self: center;
+  width: 100%;
+  max-width: 200px;
+}
+
 .primaryButton {
   background: var(--color-accent);
   color: var(--color-accent-contrast);
