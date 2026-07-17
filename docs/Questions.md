@@ -58,4 +58,19 @@ Sprint 0 completed.
   revised to add it, or whether the original AC should be updated to
   match the approved content.
 
+## From issue #77 (Simplify first Mission flow for immediate action)
+
+- **Should Home become the primary Mission surface for all Missions,
+  or should the simplified flow (complete Mission understandable and
+  actionable directly from Home, skipping the separate Mission
+  screen) apply only to the first Mission, "The Invitation"?**
+  Home already shows a Mission summary and links to a separate
+  Mission screen for the full instruction and the Start/Complete
+  actions; collapsing that into Home works well for a Mission as
+  short as "The Invitation," but it's unclear whether every Mission
+  in `MissionCatalog.md` is short enough to read well directly on
+  Home without a dedicated screen, or whether this should stay a
+  first-Mission-only exception. Needs a Product Design session
+  before issue #77 can move from exploratory to implementation-ready.
+
 Future questions will be added during implementation.
