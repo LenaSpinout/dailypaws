@@ -154,52 +154,47 @@ The shared first Mission is not part of `MissionCatalog.md`'s Mission
 Library and must never enter the normal Mission rotation again once
 completed.
 
+The Mission content below replaces the originally approved "Who
+notices first?" copy. The mechanism this Design Decision defines —
+one shared Mission, its own Reflection options and Insight mapping,
+never re-entering rotation — is unchanged; only the Mission itself
+was replaced with something a new user can try immediately at home,
+with no preparation or equipment.
+
 ### Copy
 
 **Title**
 
-Who notices first?
+The Invitation
 
 **Mission DNA**
 
-Discover how closely your dog keeps track of you during a walk.
+Discover whether and how your dog chooses to make contact when given
+space and no command.
 
 **Description**
 
-On your next walk, continue as usual for about five minutes.
+Sit on the floor a few metres from your dog.
 
-Then stop somewhere safe.
+Don't call them or ask them to do anything.
 
-Stand completely still and stay quiet. Do not call your dog, pull the
-lead or give any signals.
+Relax and wait for 30 seconds.
 
-Notice:
-
-- How long does it take before your dog turns and looks at you?
-- What do they do next?
-- Do they come closer, sit down, wait, or continue exploring?
-
-Stay still for up to one minute. Then continue your walk as usual.
-
-There is no right or wrong response. You are simply discovering how
-your dog keeps track of you while exploring the world.
+What happens?
 
 **Why**
 
-Dogs divide their attention differently during walks.
+Your dog has their own way of choosing connection.
 
-Some regularly check where their person is. Others become deeply
-absorbed in scents, sounds and movement around them.
-
-This small experiment may reveal more about how your dog balances
-independence, curiosity and connection.
+This isn't about obedience — it's about noticing what your dog
+chooses to do when nothing is asked of them.
 
 ### Reflection Options
 
-- Looked back quickly
-- Looked back after a while
-- Came closer or sat down
-- Stayed focused on the surroundings
+- Came over right away
+- Came over after a moment
+- Watched you from a distance
+- Stayed focused on something else
 - Something else
 
 ### Insight Directions
@@ -209,25 +204,27 @@ response. All wording follows PD-032/PD-033: observations, not facts;
 no judgement; no implication that one response is better than
 another; no claim that the dog "does not care."
 
-**Looked back quickly**
+**Came over right away**
 
-The dog seemed to notice the change quickly and may be keeping closer
-track of the person than is obvious while moving.
+The dog noticed the invitation quickly and chose to close the
+distance without being asked.
 
-**Looked back after a while**
+**Came over after a moment**
 
-The dog seemed focused on the surroundings and needed more time to
-notice the pause.
+The dog noticed the moment and, after a pause, chose to come closer
+in their own time.
 
-**Came closer or sat down**
+**Watched you from a distance**
 
-When the walk stopped, the dog chose to reconnect with the person.
+The dog seemed content to stay where they were, keeping an eye on
+things from a distance.
 
-**Stayed focused on the surroundings**
+**Stayed focused on something else**
 
-The surroundings held the dog's attention longer than the pause did
-in this situation.
+Something else nearby seemed to hold the dog's attention more than
+the invitation did this time.
 
 **Something else**
 
-No clear pattern yet; another context may reveal something different.
+No clear pattern yet; another quiet moment like this may reveal
+something different.
