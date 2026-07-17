@@ -37,10 +37,10 @@ export const strings = {
     // DesignDecisions.md DD-005's one approved exception: Mission-specific
     // Reflection options, used only for the shared first Mission.
     firstMissionOptions: [
-      { id: "looked-back-quickly", label: "Looked back quickly" },
-      { id: "looked-back-after-a-while", label: "Looked back after a while" },
-      { id: "came-closer-or-sat-down", label: "Came closer or sat down" },
-      { id: "stayed-focused-on-surroundings", label: "Stayed focused on the surroundings" },
+      { id: "came-over-right-away", label: "Came over right away" },
+      { id: "came-over-after-a-moment", label: "Came over after a moment" },
+      { id: "watched-from-a-distance", label: "Watched you from a distance" },
+      { id: "stayed-focused-on-something-else", label: "Stayed focused on something else" },
       { id: "something-else", label: "Something else" },
     ] satisfies ReflectionOption[],
     skip: "Not right now",

@@ -9,45 +9,47 @@ export const firstMission: MissionTemplate = {
   id: "first-mission",
   type: "Observe",
   goalType: "Connection",
-  title: "Who notices first?",
+  title: "The Invitation",
   description:
-    "On your next walk, continue as usual for about five minutes. Then stop somewhere safe. Stand completely still and stay quiet. Do not call your dog, pull the lead or give any signals. Notice: how long does it take before your dog turns and looks at you? What do they do next? Do they come closer, sit down, wait, or continue exploring? Stay still for up to one minute. Then continue your walk as usual. There is no right or wrong response. You are simply discovering how your dog keeps track of you while exploring the world.",
+    "Sit on the floor a few metres from your dog. Don't call them or ask them to do anything. Relax and wait for 30 seconds. What happens?",
   durationMinutes: 5,
   successCriteria:
-    "Dogs divide their attention differently during walks. Some regularly check where their person is. Others become deeply absorbed in scents, sounds and movement around them. This small experiment may reveal more about how your dog balances independence, curiosity and connection.",
+    "Your dog has their own way of choosing connection. This isn't about obedience — it's about noticing what your dog chooses to do when nothing is asked of them.",
 };
 
 // Insight mapping for DD-005's one approved exception to the generic
 // 3-option Reflection — the option ids here must match
 // strings.ts's reflection.firstMissionOptions exactly.
 const insightsByReflection: Record<string, Insight> = {
-  "looked-back-quickly": {
-    id: "keeping-closer-track",
-    title: "Keeping closer track than it seems",
+  "came-over-right-away": {
+    id: "chose-to-close-the-distance",
+    title: "Chose to come closer quickly",
     description:
-      "The dog seemed to notice the change quickly and may be keeping closer track of the person than is obvious while moving.",
+      "The dog noticed the invitation quickly and chose to close the distance without being asked.",
   },
-  "looked-back-after-a-while": {
-    id: "focused-on-surroundings",
-    title: "Taking in the surroundings",
+  "came-over-after-a-moment": {
+    id: "chose-to-come-closer-in-their-own-time",
+    title: "Took a moment, then chose to come closer",
     description:
-      "The dog seemed focused on the surroundings and needed more time to notice the pause.",
+      "The dog noticed the moment and, after a pause, chose to come closer in their own time.",
   },
-  "came-closer-or-sat-down": {
-    id: "chose-to-reconnect",
-    title: "Chose to reconnect",
-    description: "When the walk stopped, the dog chose to reconnect with the person.",
-  },
-  "stayed-focused-on-surroundings": {
-    id: "surroundings-held-attention",
-    title: "The world held their attention",
+  "watched-from-a-distance": {
+    id: "chose-to-watch-from-a-distance",
+    title: "Chose to watch from where they were",
     description:
-      "The surroundings held the dog's attention longer than the pause did in this situation.",
+      "The dog seemed content to stay where they were, keeping an eye on things from a distance.",
+  },
+  "stayed-focused-on-something-else": {
+    id: "something-else-held-attention",
+    title: "Something else held their attention",
+    description:
+      "Something else nearby seemed to hold the dog's attention more than the invitation did this time.",
   },
   "something-else": {
     id: "no-clear-pattern-yet",
     title: "Something worth exploring",
-    description: "No clear pattern yet; another context may reveal something different.",
+    description:
+      "No clear pattern yet; another quiet moment like this may reveal something different.",
   },
 };
 
