@@ -25,6 +25,14 @@ The purpose is to strengthen the relationship through curiosity, observation and
 
 ---
 
+## Curiosity First
+
+Before a Mission teaches, corrects or builds a skill, it should make the family wonder.
+
+Curiosity comes first. Instruction, if it ever comes, comes later.
+
+---
+
 ## Core Principles
 
 Every Mission should:
@@ -35,6 +43,8 @@ Every Mission should:
 - Have no right or wrong outcome.
 - Help the family notice something new.
 - Leave the family understanding their dog a little better.
+- Spark curiosity immediately.
+- Feel like a small experiment rather than an exercise.
 
 ---
 

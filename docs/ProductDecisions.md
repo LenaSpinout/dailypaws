@@ -512,3 +512,11 @@ Principles:
 - Deliberately incomplete: breed, nicknames, relationships,
   health data and routines are learned later through
   Conversations, not asked upfront.
+
+---
+
+## PD-052 – Curiosity before instruction
+
+DailyPaws encourages families to wonder, observe and discover before it teaches or corrects anything.
+
+Curiosity comes first. Instruction, if it ever comes, comes later — and only once the family has had the chance to notice something for themselves.
