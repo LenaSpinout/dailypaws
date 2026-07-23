@@ -28,7 +28,7 @@ Lying quietly at a café.
 
 Those moments matter more than perfect training sessions.
 
-DailyPaws turns those moments into meaningful missions.
+DailyPaws turns those moments into meaningful everyday experiences.
 
 ---
 
@@ -71,6 +71,10 @@ We build relationships.
 We don't chase perfection.
 
 We celebrate progress.
+
+We don't rush to conclusions.
+
+We stay curious.
 
 Every interaction matters.
 
