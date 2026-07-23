@@ -10,6 +10,7 @@ export function OnboardingStepShell({
   context,
   onBack,
   onSkip,
+  primaryAction,
   children,
 }: {
   step: number;
@@ -18,6 +19,7 @@ export function OnboardingStepShell({
   context: string;
   onBack?: () => void;
   onSkip?: () => void;
+  primaryAction?: ReactNode;
   children: ReactNode;
 }) {
   return (
@@ -38,7 +40,12 @@ export function OnboardingStepShell({
       <h1 className={styles.question}>{question}</h1>
       <p className={styles.context}>{context}</p>
 
+      {/* Scrolls internally if the step's options don't fit — the
+          question above and the primary action below always stay
+          visible, so the CTA is never pushed off-screen. */}
       <div className={styles.content}>{children}</div>
+
+      {primaryAction}
 
       {onSkip && (
         <button type="button" className={styles.skipButton} onClick={onSkip}>
